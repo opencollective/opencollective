@@ -14,7 +14,7 @@ Regulations are different all over the world. Governements are local operating s
 
 To achieve that, we will have to adapt the software to comply with local regulations. While the concept of umbrella organization is a universal concept, the way bookkeeping and tax reporting should be performed varies between countries. Payment processing is also another area that needs to be adapted locally to make sure that most people online and offline can contribute to a collective.
 
-## Why not using the Blockchain?
+**Why not using the Blockchain?**
 
 We would definitely love to explore how we can use the blockchain to achieve our goal. But in the meantime, we can already go a long way by using existing technologies and services (Stripe, PayPal, etc.) that are already well established. We don't want to wait for self-driving cars to be around before starting building Uber.
 
