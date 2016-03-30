@@ -2,7 +2,7 @@
 
 ## Structure
 
-Our codebase is splitted in multiple repos: `website`, `api`, `app`. We run those 3 node.js applications separately. `website` and `app` are the client applications that you can find on `https://opencollective.com/yeoman` (`website`) and `https://app.opencollective.com/` (`app`).
+Our codebase is split into multiple repos: `website`, `api`, `app`. We run those 3 node.js applications separately. `website` and `app` are the client applications that you can find on `https://opencollective.com/yeoman` (`website`) and `https://app.opencollective.com/` (`app`).
 
 To run one of the client application locally, you need to run the `api` alongside.
 
