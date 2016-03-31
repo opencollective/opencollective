@@ -1,7 +1,7 @@
+![logo](https://opencollective.com/public/images/opencollectivelogo.svg)
 This repo describes the high level view of the OpenCollective project. This is where we will discuss broad topics such as general documentation, FAQ, new features and how to contribute to the project.
 
 ## What is OpenCollective?
-
 OpenCollective is platform on top of which communities can collect and disburse money transparently to sustain themselves and develop their activities.
 
 ## Why OpenCollective?
@@ -32,8 +32,8 @@ We would definitely love to explore how we can use the blockchain to achieve our
 
 ## Documentation
 
-- [Scope](https://github.com/OpenCollective/OpenCollective/wiki/Scope)
 - [User Guide](https://github.com/OpenCollective/OpenCollective/wiki/User-Guide)
+- [Product definition](https://github.com/OpenCollective/OpenCollective/wiki/Product)
 - [Developer Documentation](https://github.com/OpenCollective/OpenCollective/wiki/Developer-Documentation)
 
 ## How to contribute?
