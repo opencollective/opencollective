@@ -1,4 +1,4 @@
-# Get started
+# Getting started
 
 ## Structure
 
@@ -89,3 +89,25 @@ STRIPE_SECRET
 STRIPE_KEY
 STRIPE_CLIENT_ID
 ```
+
+
+## Frontend tests with Nightwatch
+
+#### Install Selenium
+
+Download the [selenium-server-standalone-2.44.0.jar](http://selenium-release.storage.googleapis.com/2.44/selenium-server-standalone-2.44.0.jar) and move it to `bin/selenium-server-standalone-2.44.0.jar`
+
+On MacOSX Yosemite, you might also need to install Java (yes, I know... don't look at me this way...). You can download it from [this page](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+
+#### Install the Chrome Driver
+
+Download the chrome driver from http://chromedriver.storage.googleapis.com/, unzip it and move it to `test/lib/chromedriver`
+
+
+### Install nightwatch
+
+    npm install -g nightwatch
+
+And finally, you can run the tests:
+
+    npm run nightwatch
