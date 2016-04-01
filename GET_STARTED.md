@@ -8,12 +8,14 @@ To run one of the client application locally, you need to run the `api` alongsid
 
 ## Setup api
 
-### Install postgres (mac)
+### Install postgres (MacOSX)
 
 ```bash
 brew install postgres
 pg_ctl -l /usr/local/var/postgres/server.log start
 ```
+
+Or download [Postgres.app](http://postgresapp.com)
 
 ### Install API
 
@@ -48,11 +50,9 @@ Now, assuming the postgres database superuser is `postgres`, let's create the da
 
 ```bash
 createdb -U postgres opencollective_localhost
-createdb -U postgres opencollective_test
 createuser -U postgres opencollective
 psql -U postgres
 > GRANT ALL PRIVILEGES ON DATABASE opencollective_localhost TO opencollective;
-> GRANT ALL PRIVILEGES ON DATABASE opencollective_test TO opencollective;
 ```
 
 ## Run the website
