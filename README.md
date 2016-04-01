@@ -37,3 +37,5 @@ We would definitely love to explore how we can use the blockchain to achieve our
 - [Developer Documentation](https://github.com/OpenCollective/OpenCollective/wiki/Developer-Documentation)
 
 ## How to contribute?
+- Take a look at Github issues
+- Join our [slack channel](http://slack.opencollective.com)
