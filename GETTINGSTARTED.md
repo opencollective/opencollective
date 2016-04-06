@@ -80,9 +80,9 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000/login` in your browser and enter the following credentials `devuser@opencollective.com` and `password`.
+Open `http://localhost:3000/login` in your browser and enter the following credentials `user@opencollective.com` and `password`.
 
-If you want to try a Stripe donation, you will need to click on the blue `Authenticate with Stripe` button and finish the flow. You will first need to add the stripe api keys in the `.env` of the `api`.
+If you want to try a Stripe donation, login with `stripeuser@opencollective.com` and `password`. You will need to click on the blue `Authenticate with Stripe` button and finish the flow. You will first need to add the stripe api keys in the `.env` of the `api`.
 
 ```
 STRIPE_SECRET
