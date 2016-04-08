@@ -17,6 +17,8 @@ Can't set headers after they are sent
 
 If you use `res.send` twice in the same route it will fail because you already responded to the request. Most of the time, the programmer forgot to return the `res.send` statement. (http://stackoverflow.com/questions/7042340/node-js-error-cant-set-headers-after-they-are-sent)
 
+For example: https://github.com/OpenCollective/api/pull/244
+
 
 ## Webhook
 
