@@ -1,4 +1,4 @@
-## Code of Conduct
+# Code of Conduct
 
 ### Conduct
 
@@ -9,8 +9,12 @@
   nationality, or other similar characteristic.
 * Please avoid using overtly sexual nicknames or other nicknames that
   might detract from a friendly, safe and welcoming environment for
-  all.
-* Please be kind and courteous. There's no need to be mean or rude.
+  all. Obviously different people's ideas of what constitutes sexual
+  may vary as do definitions of overt but please use good judgment
+  and consider that a sexual nickname communicates to everyone
+  reading it, indescriminately. 
+* Please be kind and courteous. Being mean and rude is seldom
+  constructive.
 * Respect that some individuals and cultures consider the casual use of
   profanity offensive and off-putting.
 * Respect that people have differences of opinion and that every
@@ -33,7 +37,7 @@
   a safe place for you and we've got your back.
 * Likewise any spamming, trolling, flaming, baiting or other
   attention-stealing behavior is not welcome.
-* Avoid the use of personal pronouns in code comments or
+* Try to avoid the use of personal pronouns in code comments or
   documentation. There is no need to address persons when explaining
   code (e.g. "When the developer").
 
