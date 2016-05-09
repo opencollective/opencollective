@@ -2,6 +2,8 @@
 This repo gives a high level overview of the OpenCollective project. This is where we will discuss broad topics such as general documentation, FAQ, new features and how to contribute to the project.
 
 ## What is OpenCollective?
+
+[![Join the chat at https://gitter.im/OpenCollective/OpenCollective](https://badges.gitter.im/OpenCollective/OpenCollective.svg)](https://gitter.im/OpenCollective/OpenCollective?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 OpenCollective is a platform where communities can collect and disburse money transparently to sustain themselves and develop their activities.
 
 ## Why OpenCollective?
