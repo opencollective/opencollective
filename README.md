@@ -1,6 +1,7 @@
 ![logo](https://opencollective.com/public/images/opencollectivelogo.svg)
 This repo gives a high level overview of the OpenCollective project. This is where we will discuss broad topics such as general documentation, FAQ, new features and how to contribute to the project.
 
+[![Slack Status](https://slack.opencollective.com/badge.svg)](https://slack.opencollective.com)
 [![Join the chat at https://gitter.im/OpenCollective/OpenCollective](https://badges.gitter.im/OpenCollective/OpenCollective.svg)](https://gitter.im/OpenCollective/OpenCollective?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## What is OpenCollective?
