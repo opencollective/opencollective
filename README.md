@@ -30,12 +30,6 @@ To achieve that, we will have to adapt the software to comply with local regulat
 
 We would definitely love to explore how we can use the blockchain to achieve this goal. But we don't want to wait for self-driving cars to be ubiquitous before starting building Uber/Lyft. We believe that we can already go a long way by using existing technologies and services (Stripe, PayPal, etc.) that are already well established.
 
-## Who is behind this?
-
-- Aseem Sood ([@asood123](https://twitter.com/asood123))
-- Pia Mancini ([@piamancini](https://twitter.com/piamancini))
-- Xavier Damman ([@xdamman](https://twitter.com/xdamman))
-
 ## Examples of open collectives already on the platform
 
 - [MochaJS](https://opencollective.com/MochaJS), [Yeoman](https://opencollective.com/yeoman), [Apex](https://opencollective.com/apex), and [many more open source projects](https://docs.google.com/spreadsheets/d/1o-_igyEpPdfYGBRbdQ3WvbFohXWhWiKY7rI5QwxhMK8/edit?ts=571a7863#gid=0)
@@ -50,3 +44,37 @@ We would definitely love to explore how we can use the blockchain to achieve thi
 ## How to contribute?
 - Take a look at [Github issues](https://github.com/OpenCollective/opencollective/issues)
 - Join our [slack channel](http://slack.opencollective.com)
+
+
+## Contributors
+
+<a href="https://opencollective.com/foundation/contributors/0/website"><img src="https://opencollective.com/foundation/contributors/0/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/1/website"><img src="https://opencollective.com/foundation/contributors/1/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/2/website"><img src="https://opencollective.com/foundation/contributors/2/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/3/website"><img src="https://opencollective.com/foundation/contributors/3/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/4/website"><img src="https://opencollective.com/foundation/contributors/4/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/5/website"><img src="https://opencollective.com/foundation/contributors/5/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/6/website"><img src="https://opencollective.com/foundation/contributors/6/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/7/website"><img src="https://opencollective.com/foundation/contributors/7/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/8/website"><img src="https://opencollective.com/foundation/contributors/8/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/9/website"><img src="https://opencollective.com/foundation/contributors/9/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/10/website"><img src="https://opencollective.com/foundation/contributors/10/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/11/website"><img src="https://opencollective.com/foundation/contributors/11/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/12/website"><img src="https://opencollective.com/foundation/contributors/12/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/13/website"><img src="https://opencollective.com/foundation/contributors/13/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/14/website"><img src="https://opencollective.com/foundation/contributors/14/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/15/website"><img src="https://opencollective.com/foundation/contributors/15/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/16/website"><img src="https://opencollective.com/foundation/contributors/16/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/17/website"><img src="https://opencollective.com/foundation/contributors/17/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/18/website"><img src="https://opencollective.com/foundation/contributors/18/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/19/website"><img src="https://opencollective.com/foundation/contributors/19/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/20/website"><img src="https://opencollective.com/foundation/contributors/20/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/21/website"><img src="https://opencollective.com/foundation/contributors/21/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/22/website"><img src="https://opencollective.com/foundation/contributors/22/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/23/website"><img src="https://opencollective.com/foundation/contributors/23/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/24/website"><img src="https://opencollective.com/foundation/contributors/24/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/25/website"><img src="https://opencollective.com/foundation/contributors/25/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/26/website"><img src="https://opencollective.com/foundation/contributors/26/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/27/website"><img src="https://opencollective.com/foundation/contributors/27/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/28/website"><img src="https://opencollective.com/foundation/contributors/28/avatar"></a>
+<a href="https://opencollective.com/foundation/contributors/29/website"><img src="https://opencollective.com/foundation/contributors/29/avatar"></a>
