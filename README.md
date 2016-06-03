@@ -22,7 +22,7 @@ The goal of OpenCollective is to create a [New Form of Association for the Inter
 
 ## Why Open Source?
 
-Regulations are different all over the world. Governements are local operating systems with their own set of (paper based) APIs. We need to build a browser that will offer a new global and unique interface on top of which we can start developing new communities that won't have to worry about the complexity of the underlying operating system (aka administration).
+Regulations are different all over the world. Governments are local operating systems with their own set of (paper based) APIs. We need to build a browser that will offer a new global and unique interface on top of which we can start developing new communities that won't have to worry about the complexity of the underlying operating system (aka administration).
 
 To achieve that, we will have to adapt the software to comply with local regulations. While the concept of umbrella organization is a universal concept, the way bookkeeping and tax reporting should be performed varies between countries. Payment processing is also another area that needs to be adapted locally to make sure that most people –online and offline– can contribute to a collective.
 
