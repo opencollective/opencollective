@@ -33,16 +33,72 @@ We would definitely love to explore how we can use the blockchain to achieve thi
 
 ## Examples of open collectives already on the platform
 
-- [MochaJS](https://opencollective.com/MochaJS), [Yeoman](https://opencollective.com/yeoman), [Apex](https://opencollective.com/apex), and [many more open source projects](https://docs.google.com/spreadsheets/d/1o-_igyEpPdfYGBRbdQ3WvbFohXWhWiKY7rI5QwxhMK8/edit?ts=571a7863#gid=0)
+- [Babel](https://opencollective.com/babel), [webpack](https://opencollective.com/webpack), [VueJS](https://opencollective.com/VueJS), and [many more open source projects](https://opencollective.com/opensource)
 - [Women Who Code](https://opencollective.com/wwcode), [RailsGirls Atlanta](https://opencollective.com/RailsGirlsAtl), [Consciousness Hacking](https://opencollective.com/ConsciousnessHackingSF)
 
 ## Documentation
 
-- [User Guide](https://github.com/OpenCollective/OpenCollective/wiki/User-Guide)
-- [Product definition](https://github.com/OpenCollective/OpenCollective/wiki/Product)
-- [Developer Documentation](https://github.com/OpenCollective/OpenCollective/wiki/Developer-Documentation)
+- [FAQ](https://opencollective.com/faq)
+- [Wiki](https://github.com/OpenCollective/OpenCollective/wiki)
+- [Forum](https://forum.opencollective.com)
+- [Blog](https://medium.com/open-collective)
+
+## API
+
+  * [Collectives](api/collectives)
+  * [Events](api/events)
+
 
 ## How to contribute?
 - Take a look at [CONTRIBUTING](https://github.com/OpenCollective/OpenCollective/blob/master/CONTRIBUTING.md)
 - Join our [slack channel](http://slack.opencollective.com)
+- Translate Open Collective to your language: [localize](frontend/localize)
+- Contribute financially to our own open collective: https://opencollective.com/opencollective
+
+## Backers
+
+<a href="https://opencollective.com/opencollective/backers/0/website"><img src="https://opencollective.com/opencollective/backers/0/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/1/website"><img src="https://opencollective.com/opencollective/backers/1/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/2/website"><img src="https://opencollective.com/opencollective/backers/2/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/3/website"><img src="https://opencollective.com/opencollective/backers/3/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/4/website"><img src="https://opencollective.com/opencollective/backers/4/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/5/website"><img src="https://opencollective.com/opencollective/backers/5/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/6/website"><img src="https://opencollective.com/opencollective/backers/6/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/7/website"><img src="https://opencollective.com/opencollective/backers/7/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/8/website"><img src="https://opencollective.com/opencollective/backers/8/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/9/website"><img src="https://opencollective.com/opencollective/backers/9/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/10/website"><img src="https://opencollective.com/opencollective/backers/10/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/11/website"><img src="https://opencollective.com/opencollective/backers/11/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/12/website"><img src="https://opencollective.com/opencollective/backers/12/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/13/website"><img src="https://opencollective.com/opencollective/backers/13/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/14/website"><img src="https://opencollective.com/opencollective/backers/14/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/15/website"><img src="https://opencollective.com/opencollective/backers/15/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/16/website"><img src="https://opencollective.com/opencollective/backers/16/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/17/website"><img src="https://opencollective.com/opencollective/backers/17/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/18/website"><img src="https://opencollective.com/opencollective/backers/18/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/19/website"><img src="https://opencollective.com/opencollective/backers/19/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/20/website"><img src="https://opencollective.com/opencollective/backers/20/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/21/website"><img src="https://opencollective.com/opencollective/backers/21/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/22/website"><img src="https://opencollective.com/opencollective/backers/22/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/23/website"><img src="https://opencollective.com/opencollective/backers/23/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/24/website"><img src="https://opencollective.com/opencollective/backers/24/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/25/website"><img src="https://opencollective.com/opencollective/backers/25/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/26/website"><img src="https://opencollective.com/opencollective/backers/26/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/27/website"><img src="https://opencollective.com/opencollective/backers/27/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/28/website"><img src="https://opencollective.com/opencollective/backers/28/avatar"></a>
+<a href="https://opencollective.com/opencollective/backers/29/website"><img src="https://opencollective.com/opencollective/backers/29/avatar"></a>
+
+
+## Sponsors
+
+<a href="https://opencollective.com/opencollective/sponsors/0/website"><img src="https://opencollective.com/opencollective/sponsors/0/avatar"></a>
+<a href="https://opencollective.com/opencollective/sponsors/1/website"><img src="https://opencollective.com/opencollective/sponsors/1/avatar"></a>
+<a href="https://opencollective.com/opencollective/sponsors/2/website"><img src="https://opencollective.com/opencollective/sponsors/2/avatar"></a>
+<a href="https://opencollective.com/opencollective/sponsors/3/website"><img src="https://opencollective.com/opencollective/sponsors/3/avatar"></a>
+<a href="https://opencollective.com/opencollective/sponsors/4/website"><img src="https://opencollective.com/opencollective/sponsors/4/avatar"></a>
+<a href="https://opencollective.com/opencollective/sponsors/5/website"><img src="https://opencollective.com/opencollective/sponsors/5/avatar"></a>
+<a href="https://opencollective.com/opencollective/sponsors/6/website"><img src="https://opencollective.com/opencollective/sponsors/6/avatar"></a>
+<a href="https://opencollective.com/opencollective/sponsors/7/website"><img src="https://opencollective.com/opencollective/sponsors/7/avatar"></a>
+<a href="https://opencollective.com/opencollective/sponsors/8/website"><img src="https://opencollective.com/opencollective/sponsors/8/avatar"></a>
+<a href="https://opencollective.com/opencollective/sponsors/9/website"><img src="https://opencollective.com/opencollective/sponsors/9/avatar"></a>
 
