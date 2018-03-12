@@ -3,7 +3,6 @@
 This repo gives a high level overview of the OpenCollective project. This is where we will discuss broad topics such as general documentation, FAQ, new features and how to contribute to the project.
 
 [![Slack Status](https://slack.opencollective.com/badge.svg)](https://slack.opencollective.com)
-[![Join the chat at https://gitter.im/OpenCollective/OpenCollective](https://badges.gitter.im/OpenCollective/OpenCollective.svg)](https://gitter.im/OpenCollective/OpenCollective?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## What is OpenCollective?
 
@@ -48,33 +47,33 @@ We would definitely love to explore how we can use the blockchain to achieve thi
 
 ## Contributors
 
-<a href="https://opencollective.com/foundation/contributors/0/website"><img src="https://opencollective.com/foundation/contributors/0/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/1/website"><img src="https://opencollective.com/foundation/contributors/1/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/2/website"><img src="https://opencollective.com/foundation/contributors/2/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/3/website"><img src="https://opencollective.com/foundation/contributors/3/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/4/website"><img src="https://opencollective.com/foundation/contributors/4/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/5/website"><img src="https://opencollective.com/foundation/contributors/5/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/6/website"><img src="https://opencollective.com/foundation/contributors/6/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/7/website"><img src="https://opencollective.com/foundation/contributors/7/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/8/website"><img src="https://opencollective.com/foundation/contributors/8/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/9/website"><img src="https://opencollective.com/foundation/contributors/9/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/10/website"><img src="https://opencollective.com/foundation/contributors/10/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/11/website"><img src="https://opencollective.com/foundation/contributors/11/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/12/website"><img src="https://opencollective.com/foundation/contributors/12/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/13/website"><img src="https://opencollective.com/foundation/contributors/13/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/14/website"><img src="https://opencollective.com/foundation/contributors/14/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/15/website"><img src="https://opencollective.com/foundation/contributors/15/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/16/website"><img src="https://opencollective.com/foundation/contributors/16/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/17/website"><img src="https://opencollective.com/foundation/contributors/17/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/18/website"><img src="https://opencollective.com/foundation/contributors/18/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/19/website"><img src="https://opencollective.com/foundation/contributors/19/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/20/website"><img src="https://opencollective.com/foundation/contributors/20/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/21/website"><img src="https://opencollective.com/foundation/contributors/21/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/22/website"><img src="https://opencollective.com/foundation/contributors/22/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/23/website"><img src="https://opencollective.com/foundation/contributors/23/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/24/website"><img src="https://opencollective.com/foundation/contributors/24/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/25/website"><img src="https://opencollective.com/foundation/contributors/25/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/26/website"><img src="https://opencollective.com/foundation/contributors/26/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/27/website"><img src="https://opencollective.com/foundation/contributors/27/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/28/website"><img src="https://opencollective.com/foundation/contributors/28/avatar"></a>
-<a href="https://opencollective.com/foundation/contributors/29/website"><img src="https://opencollective.com/foundation/contributors/29/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/0/website"><img src="https://opencollective.com/foundation-collective/contributors/0/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/1/website"><img src="https://opencollective.com/foundation-collective/contributors/1/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/2/website"><img src="https://opencollective.com/foundation-collective/contributors/2/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/3/website"><img src="https://opencollective.com/foundation-collective/contributors/3/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/4/website"><img src="https://opencollective.com/foundation-collective/contributors/4/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/5/website"><img src="https://opencollective.com/foundation-collective/contributors/5/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/6/website"><img src="https://opencollective.com/foundation-collective/contributors/6/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/7/website"><img src="https://opencollective.com/foundation-collective/contributors/7/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/8/website"><img src="https://opencollective.com/foundation-collective/contributors/8/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/9/website"><img src="https://opencollective.com/foundation-collective/contributors/9/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/10/website"><img src="https://opencollective.com/foundation-collective/contributors/10/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/11/website"><img src="https://opencollective.com/foundation-collective/contributors/11/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/12/website"><img src="https://opencollective.com/foundation-collective/contributors/12/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/13/website"><img src="https://opencollective.com/foundation-collective/contributors/13/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/14/website"><img src="https://opencollective.com/foundation-collective/contributors/14/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/15/website"><img src="https://opencollective.com/foundation-collective/contributors/15/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/16/website"><img src="https://opencollective.com/foundation-collective/contributors/16/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/17/website"><img src="https://opencollective.com/foundation-collective/contributors/17/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/18/website"><img src="https://opencollective.com/foundation-collective/contributors/18/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/19/website"><img src="https://opencollective.com/foundation-collective/contributors/19/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/20/website"><img src="https://opencollective.com/foundation-collective/contributors/20/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/21/website"><img src="https://opencollective.com/foundation-collective/contributors/21/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/22/website"><img src="https://opencollective.com/foundation-collective/contributors/22/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/23/website"><img src="https://opencollective.com/foundation-collective/contributors/23/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/24/website"><img src="https://opencollective.com/foundation-collective/contributors/24/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/25/website"><img src="https://opencollective.com/foundation-collective/contributors/25/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/26/website"><img src="https://opencollective.com/foundation-collective/contributors/26/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/27/website"><img src="https://opencollective.com/foundation-collective/contributors/27/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/28/website"><img src="https://opencollective.com/foundation-collective/contributors/28/avatar"></a>
+<a href="https://opencollective.com/foundation-collective/contributors/29/website"><img src="https://opencollective.com/foundation-collective/contributors/29/avatar"></a>
