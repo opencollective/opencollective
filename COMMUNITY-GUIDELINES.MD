@@ -1,4 +1,4 @@
-#Community Guidelines
+# Community Guidelines
 
 We are a community based on trust, transparency and contribution. We have a trust by default policy and in order to keep it that way, we expect everyone to follow these community guidelines and act accordingly. 
 
