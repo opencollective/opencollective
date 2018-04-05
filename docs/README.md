@@ -45,6 +45,7 @@ We would definitely love to explore how we can use the blockchain to achieve thi
 
 ## API
 
+  * [Quick Start](api/quickstart)
   * [Collectives](api/collectives)
   * [Events](api/events)
 
