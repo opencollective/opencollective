@@ -49,6 +49,15 @@ If everything works, the API will be running at
 `http://localhost:13060` and the Frontend will be running at
 `http://localhost:13000`.
 
+## Troubleshooting
+
+### `Error: Cannot find module 'image-to-ascii'`
+
+If the frontend app fails to start due to an error finding the
+`image-to-ascii` module, you may need to install Graphics Magick.
+See [this page](https://github.com/IonicaBizau/image-to-ascii/blob/master/INSTALLATION.md)
+for installation instructions.
+
 ## Conclusion
 
 Both Vagrant & Docker offer the same development workflow. They mount
