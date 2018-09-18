@@ -163,7 +163,7 @@ Return All Transactions of a collective given its slug.
 ### Curl command
 
 ```sh
-curl "http://localhost:3060/v1/collectives/opencollective-company/transactions" \
+curl "https://api.opencollective.com/v1/collectives/opencollective-company/transactions" \
   -H "Content-Type: application/json"\
   -H "Client-Id: ${ClientId}"
 ```
@@ -171,9 +171,9 @@ curl "http://localhost:3060/v1/collectives/opencollective-company/transactions" 
 PS: For more details on how to have a Client ID/API Key, get in touch.
 
 E.g.
-- Including Virtual Card transactions(transactions that used a virtual card that was issued by the collective: http://opencollective.com/v1/collectives/opencollectiveinc/transactions?api_key=YOUR_API_KEY&includeVirtualCards=true
-- NOT Including Virtual Cards: http://opencollective.com/v1/collectives/opencollectiveinc/transactions?api_key=YOUR_API_KEY
-- Using `limit=20`, `type=DEBIT` and `offset=5`: http://opencollective.com/v1/collectives/opencollectiveinc/transactions?api_key=YOUR_API_KEY&includeVirtualCards=true&limit=20&type=DEBIT&offset=5
+- Including Virtual Card transactions(transactions that used a virtual card that was issued by the collective: https://api.opencollective.com/v1/collectives/opencollectiveinc/transactions?api_key=YOUR_API_KEY&includeVirtualCards=true
+- NOT Including Virtual Cards: https://api.opencollective.com/v1/collectives/opencollectiveinc/transactions?api_key=YOUR_API_KEY
+- Using `limit=20`, `type=DEBIT` and `offset=5`: https://api.opencollective.com/v1/collectives/opencollectiveinc/transactions?api_key=YOUR_API_KEY&includeVirtualCards=true&limit=20&type=DEBIT&offset=5
 
 
 ### Output
