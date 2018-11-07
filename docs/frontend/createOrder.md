@@ -1,4 +1,8 @@
-# Redirect people to your website after a donation
+# Add a Donate Button
+
+See https://opencollective.com/widgets
+
+# Redirect people to your website after they made a donation
 
 You can create a custom URL to donate a specific amount (and frequency) using by appending `/donate`, `/pay` or `/contribute` to your collective url: e.g. 
 - https://opencollective.com/webpack/donate/100/month/bronze%20sponsorship
