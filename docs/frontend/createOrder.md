@@ -16,7 +16,8 @@ When you donate you will be redirected to https://octobox.io/callback?transactio
 
 Then you can call our API to get all the details about that transaction:
 
-https://api.opencollective.com/v1/collectives/octobox/transactions/12345
+https://api.opencollective.com/v1/collectives/octobox/transactions/12345?api_key=xxxxx
+(you can get your api key in your "Applications" page that you can access from your logged in user dropdown menu)
 
 Example of the data being returned:
 
