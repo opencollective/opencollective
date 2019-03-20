@@ -4,7 +4,7 @@ This repository is part of the Open Collective bounty program. Get paid to contr
 
 ## Intro
 
-The Open Collective engineering team is small and we're always looking for new contributors to our Open Source codebases. Our Bounty program is an opportunity to solve issues that could be negligated otherwise. Contributors who fix these issues will be rewarded financially.
+The Open Collective engineering team is small and we're always looking for new contributors to our Open Source codebases. Our Bounty program is an opportunity to solve issues that could be neglected otherwise. Contributors who fix these issues will be rewarded financially.
 
 ## How it works
 
