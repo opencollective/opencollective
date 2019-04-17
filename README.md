@@ -45,6 +45,16 @@ We would definitely love to explore how we can use the blockchain to achieve thi
 - Take a look at [CONTRIBUTING](https://github.com/OpenCollective/OpenCollective/blob/master/CONTRIBUTING.md)
 - Join our [slack channel](http://slack.opencollective.com)
 
+## RFCs
+
+Any change that adds a new rule at org-wide level to multiple repositories or that
+affects the development process in significant ways (for example when we add a new framework)
+should be treated as [an RFC](https://en.wikipedia.org/wiki/Request_for_Comments).
+
+Please create an issue following the template in `.github/ISSUE_TEMPLATE/rfc.md`
+
+To see the list of all currently opened RFCs: https://github.com/opencollective/opencollective/labels/RFC
+
 ## Contributors
 
 <a href="https://opencollective.com/foundation-collective/backers/0/website"><img src="https://opencollective.com/foundation-collective/backers/0/avatar"></a>
