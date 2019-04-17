@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="269.5871mm"
+   height="93.122139mm"
+   viewBox="0 0 269.5871 93.122139"
+   version="1.1"
+   id="svg2058"
+   inkscape:version="0.92.3pre0 (0ab9bec, 2018-03-03)"
+   sodipodi:docname="payment-flow.svg">
+  <defs
+     id="defs2052">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1767-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1765-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1481-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1767"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1765"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1481"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7462115"
+     inkscape:cx="513.57303"
+     inkscape:cy="171.4606"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="864"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata2055">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.98997827,-199.79013)">
+    <path
+       style="opacity:0.99800002;fill:#8ae234;fill-opacity:1;stroke:#e7ebe1;stroke-width:0.26108995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.19607843"
+       d="m -0.85943329,210.76082 v 32.80836 H 104.9739 v 49.21254 h 58.20834 v -49.21254 -32.80836 h -56.80833 z"
+       id="rect1845"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="27.07165"
+       y="223.34537"
+       id="text1439"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         id="tspan1437"
+         x="27.07165"
+         y="223.34537"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Contributors</tspan><tspan
+         sodipodi:role="line"
+         x="27.07165"
+         y="228.63704"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1441">(Backers/Sponsors)</tspan></text>
+    <path
+       style="opacity:0.99800002;fill:#729fcf;fill-opacity:1;stroke:#e7ebe1;stroke-width:0.24842103;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.19607843"
+       d="m 104.9739,292.78179 58.30675,-31.75007 h 45.99031 v -50.27093 h 49.16129 v 50.27093 31.75007 z"
+       id="rect1845-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="132.55908"
+       y="223.34537"
+       id="text1439-3"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         x="132.55908"
+         y="223.34537"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1441-1">Payment Provider</tspan><tspan
+         sodipodi:role="line"
+         x="132.55908"
+         y="228.63704"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1470">(Stripe/Open Collective)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 53.525505,224.82334 H 101.15049"
+       id="path1474"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1767)"
+       d="m 131.43223,234.75551 v 26.45833"
+       id="path1742"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="132.99149"
+       y="273.7713"
+       id="text1439-3-9"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         x="132.99149"
+         y="273.7713"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1441-1-6">Host Account</tspan><tspan
+         sodipodi:role="line"
+         x="132.99149"
+         y="279.06296"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1470-9" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="232.92014"
+       y="224.97852"
+       id="text1439-3-8"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         x="232.92014"
+         y="224.97852"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1470-5">Collective</tspan><tspan
+         sodipodi:role="line"
+         x="232.92014"
+         y="230.27019"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1801">Members</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-3)"
+       d="m 157.89058,272.67334 h 47.62499"
+       id="path1474-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:0.19607843"
+       x="232.29994"
+       y="270.3407"
+       id="text1439-3-6"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         x="232.29994"
+         y="270.3407"
+         style="text-align:center;text-anchor:middle;stroke:none;stroke-width:0.26458332;stroke-opacity:0.19607843"
+         id="tspan1441-1-4">Payment Provider</tspan><tspan
+         sodipodi:role="line"
+         x="232.29994"
+         y="275.63235"
+         style="text-align:center;text-anchor:middle;stroke:none;stroke-width:0.26458332;stroke-opacity:0.19607843"
+         id="tspan1470-0">(Paypal)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1767-0)"
+       d="M 231.97397,261.72749 V 235.26916"
+       id="path1742-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4e9a06;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.4735887"
+       y="239.57448"
+       id="text1865"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         id="tspan1863"
+         x="3.4735887"
+         y="239.57448"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#4e9a06;stroke-width:0.26458332">Donation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="229.45778"
+       y="288.33524"
+       id="text1865-7"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         id="tspan1863-2"
+         x="229.45778"
+         y="288.33524"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#204a87;stroke-width:0.26458332">Expense</tspan></text>
+    <circle
+       style="opacity:0.99800002;fill:#d3d7cf;fill-opacity:1;stroke:none;stroke-width:0.06641773;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.19607843"
+       id="path1941"
+       cx="105.84751"
+       cy="208.41086"
+       r="8.6207294"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="100.78013"
+       y="209.92395"
+       id="text1945"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         id="tspan1943"
+         x="100.78013"
+         y="209.92395"
+         style="stroke-width:0.26458332">Fee1</tspan></text>
+    <circle
+       style="opacity:0.99800002;fill:#d3d7cf;fill-opacity:1;stroke:none;stroke-width:0.06641773;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.19607843"
+       id="path1941-8"
+       cx="259.97638"
+       cy="274.38663"
+       r="8.6207294"
+       inkscape:transform-center-x="-0.32018762"
+       inkscape:transform-center-y="-1.9211257"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="254.8325"
+       y="275.89972"
+       id="text1945-2"
+       inkscape:transform-center-x="-0.32016701"
+       inkscape:transform-center-y="-1.9211196"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         id="tspan1943-9"
+         x="254.8325"
+         y="275.89972"
+         style="stroke-width:0.26458332">Fee4</tspan></text>
+    <circle
+       style="opacity:0.99800002;fill:#d3d7cf;fill-opacity:1;stroke:none;stroke-width:0.06641773;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.19607843"
+       id="path1941-9"
+       cx="162.52071"
+       cy="244.036"
+       r="8.6207294"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="157.42747"
+       y="245.57698"
+       id="text1945-6"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         id="tspan1943-0"
+         x="157.42747"
+         y="245.57698"
+         style="stroke-width:0.26458332">Fee3</tspan></text>
+    <circle
+       style="opacity:0.99800002;fill:#d3d7cf;fill-opacity:1;stroke:none;stroke-width:0.06641773;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.19607843"
+       id="path1941-2"
+       cx="105.29147"
+       cy="259.28778"
+       r="8.6207294"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="100.24061"
+       y="260.82877"
+       id="text1945-7"
+       inkscape:export-filename="/home/lincoln/tmp/oc/moneyflow.png"
+       inkscape:export-xdpi="60.299999"
+       inkscape:export-ydpi="60.299999"><tspan
+         sodipodi:role="line"
+         id="tspan1943-6"
+         x="100.24061"
+         y="260.82877"
+         style="stroke-width:0.26458332">Fee2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="117.79057"
+       y="206.75204"
+       id="text2742"><tspan
+         sodipodi:role="line"
+         id="tspan2740"
+         x="117.79057"
+         y="206.75204"
+         style="stroke-width:0.26458332">Payment Provider Fee</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="174.52159"
+       y="243.98178"
+       id="text2746"><tspan
+         sodipodi:role="line"
+         id="tspan2744"
+         x="174.52159"
+         y="243.98178"
+         style="stroke-width:0.26458332">Platform Fee</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.751976"
+       y="271.2836"
+       id="text2750"><tspan
+         sodipodi:role="line"
+         id="tspan2748"
+         x="83.751976"
+         y="271.2836"
+         style="stroke-width:0.26458332">Host Fee</tspan></text>
+  </g>
+</svg>
