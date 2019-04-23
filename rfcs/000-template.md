@@ -1,12 +1,3 @@
----
-name: RFC
-about: Use this to create new RFCs
-title: RFC - __________________
-labels: RFC
-assignees: ''
-
----
-
 # Affected projects
 
 <!-- Frontend, API, Invoices, All... -->
