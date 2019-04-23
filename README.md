@@ -51,7 +51,7 @@ Any change that adds a new rule at org-wide level to multiple repositories or th
 affects the development process in significant ways (for example when we add a new framework)
 should be treated as [an RFC](https://en.wikipedia.org/wiki/Request_for_Comments).
 
-Please create an issue following the template in `.github/ISSUE_TEMPLATE/rfc.md`
+Please create a pull request following the template in `rfcs/000-template.md`
 
 To see the list of all currently opened RFCs: https://github.com/opencollective/opencollective/labels/RFC
 
