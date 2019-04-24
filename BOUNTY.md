@@ -38,10 +38,10 @@ _See [more info about getting paid](https://docs.opencollective.com/help/expense
 
 ### Workflow for Core Contributors
 
+1. Make sure the issue is understandable for newcomers and expectations are clearly set
+
 1. Tag issues with the "bounty" label and amount (e.g. "\$100")
 
 1. Add a comment with a basic explanation of the Bounty process and link to BOUNTY.md
 
    > A $100 bounty was attached to this issue. Anyone submitting a Pull Request will be rewarded with $100 when the Pull Request is reviewed, accepted and merged. [More info](BOUNTY.md).
-
-1. Make sure the issue is understandable for newcomers and expectations are clearly set
