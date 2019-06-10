@@ -12,6 +12,10 @@ Open Collective is an online funding platform for open and transparent communiti
 
 Please see our help docs for all info, uncluding user guide, how to contribute, and developer docs: https://docs.opencollective.com
 
+## Questions?
+
+Join [our Slack](https://slack.opencollective.com) or [email support](mailto:support@opencollective.com).
+
 ## Contributors
 
 <a href="https://opencollective.com/foundation-collective/backers/0/website"><img src="https://opencollective.com/foundation-collective/backers/0/avatar"></a>
