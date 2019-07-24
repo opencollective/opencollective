@@ -10,7 +10,7 @@ Open Collective is an online funding platform for open and transparent communiti
 
 ## Documentation
 
-Please see our help docs for all info, uncluding user guide, how to contribute, and developer docs: https://docs.opencollective.com
+Please see our help docs for all info, including user guide, how to contribute, and developer docs: https://docs.opencollective.com
 
 ## Questions?
 
