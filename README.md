@@ -3,6 +3,7 @@
 Please raise all issues in this repo, which serves as an overview for the project.
 
 [![Slack Status](https://slack.opencollective.com/badge.svg)](https://slack.opencollective.com)
+[![Crowdin](https://badges.crowdin.net/opencollective/localized.svg)](https://crowdin.com/project/opencollective)
 
 ## What is OpenCollective?
 
