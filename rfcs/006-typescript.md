@@ -21,7 +21,7 @@ could have been prevented by using Typescript.
 By providing `interface` and `enum` types out of the box, Typescript makes the code cleaner
 and easier to understand in places that use them.
 
-- Developer expenrience
+- Developer experience
 
 IDEs like VSCode (through IntelliSense) [are able to improve autocompletion](https://code.visualstudio.com/docs/languages/typescript)
 and errors detection thanks to Typescript.
