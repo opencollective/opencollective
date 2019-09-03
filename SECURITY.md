@@ -27,20 +27,20 @@ Only those that meet the following eligibility requirements may receive a moneta
 
 We **won't** accept reports made by testing on our production servers (https://opencollective.com).
 
-We provide staging servers with a very similar configuration on the following URLs:
-
-- API: https://api-staging.opencollective.com
-- Frontend: https://staging.opencollective.com
-- Invoices: https://invoices-staging.opencollective.com
-- Images: https://images-staging.opencollective.com
-
-Please use this staging servers or (better) setup a local server:
+You must ideally do all the testing locally. See the following links:
 
 - API: https://github.com/opencollective/opencollective-api
 - Frontend: https://github.com/opencollective/opencollective-frontend
 - Invoices: https://github.com/opencollective/opencollective-invoices
 - Images: https://github.com/opencollective/opencollective-images
 - BackYourStack: https://github.com/opencollective/backyourstack
+
+In case you really need to test on a live environment, we provide staging servers on the following URLs:
+
+- API: https://api-staging.opencollective.com
+- Frontend: https://staging.opencollective.com
+- Invoices: https://invoices-staging.opencollective.com
+- Images: https://images-staging.opencollective.com
 
 ## Contact
 
