@@ -4,7 +4,7 @@
 
 We rely on JWT tokens for our authentication system. We recently discovered a legacy [code snippet](https://github.com/opencollective/opencollective-api/blob/0c2aaa25f41122c3b4e30b1aa739d9bf97bdf6d9/server/lib/email.js#L60-L64) that was
 putting our JWT secret (that is basically the key of the authentication mechanism) in a MD5-encoded hash,
-next to predictable variables, making it _possible_ to locally bruteforce the secret.
+next to predictable variables, making it theoretically _possible_ to locally bruteforce the secret.
 
 **To reproduce**
 
@@ -52,7 +52,7 @@ months or years (the key was less than 6 months old) and extremely sophisticated
 ## Root Cause
 
 - Misuse of JWT secret in a place where it had nothing to do.
-- Encrypting with a weak algorithm (MD5).
+- Hashing with a weak algorithm (MD5).
 
 ## Resolution
 
@@ -64,7 +64,7 @@ months or years (the key was less than 6 months old) and extremely sophisticated
 Our priority was to secure the JWT secret. While we still generate an MD5 hash for the email unsubscribe token, we don't see it as a priority because:
 
 - There's no exploit currently feasible that would allow to crack the token.
-- The potential impact of cracking emails unsubscribe is lower.
+- The potential impact of cracking emails unsubscribe links is lower.
 
 We've however created [an issue](https://github.com/opencollective/opencollective/issues/2392) to improve this behavior in the mid-term.
 
