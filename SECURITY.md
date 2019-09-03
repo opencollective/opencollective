@@ -22,6 +22,7 @@ Only those that meet the following eligibility requirements may receive a moneta
 - You must avoid tests that could cause degradation or interruption of our service (refrain from using automated tools, and limit yourself about requests per second).
 - You must not leak, manipulate, or destroy any user data.
 - You must not be a former or current employee of Open Collective or one of its contractor.
+- You must wait for the issue to be fully fixed before exposing it publicly.
 
 ## Scope
 
@@ -113,6 +114,7 @@ In case you really need to test on a live environment, we provide staging server
 - Reporter is rewarded with a bounty at this stage (if applicable)
 - Team works on a fix, verifies it an pushes it
 - Team confirms that the issue has been patched and may ask reporter to check the fix
+- We write a postmortem to document the issue. From this point it is safe for reporter to go public about the issue.
 
 ## How do we calculate the severity score
 
