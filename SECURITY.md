@@ -23,6 +23,7 @@ Only those that meet the following eligibility requirements may receive a moneta
 - You must not leak, manipulate, or destroy any user data.
 - You must not be a former or current employee of Open Collective or one of its contractor.
 - You must wait for the issue to be fully fixed before exposing it publicly.
+- There must be proof that, given realistic processing power and time, an exploit is possible.
 
 ## Scope
 
