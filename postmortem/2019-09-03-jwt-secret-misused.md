@@ -39,7 +39,7 @@ months or years (the key was less than 6 months old) and extremely sophisticated
 - **2019-06-17 14:00**:
   Issue is discovered and reported internally. It gets properly documented but we decide not to prioritize it because there's not exploit possible.
 - **2019-08-28 15:40**:
-  A user report the issue to us by email along with other recommendations to better secure our JWT authentication. We confirm the reception 45 minutes after.
+  A user, [Robin](https://github.com/Beanow), reports the issue to us by email along with other recommendations to better secure our JWT authentication. We confirm the reception 45 minutes after.
 - **2019-08-28 16:30**:
   We review the report and categorize all issues.
 - **2019-08-29/30**:
@@ -73,3 +73,8 @@ We've however created [an issue](https://github.com/opencollective/opencollectiv
 - Ability to invalidate tokens by rotating JWT secret.
 - Fast communication / analysis and decision making processes.
 - The (not merged yet) [security policy](https://github.com/opencollective/opencollective/pull/2235) gave us a framework to organize the different steps following the report. It was a good opportunity to try it.
+
+## Special thanks
+
+Many thanks to [Robin](https://github.com/Beanow) who first contacted us with a detailed and very
+clear report about improvements to make to our JWT authentication system!
