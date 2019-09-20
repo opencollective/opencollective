@@ -13,6 +13,14 @@ Open Collective is an online funding platform for open and transparent communiti
 
 Please see our help docs for all info, including user guide, how to contribute, and developer docs: https://docs.opencollective.com
 
+## Issues
+
+This repository serves as [our main issue tracker](https://github.com/opencollective/opencollective/issues). When creating issues, it's important to follow common guidelines to make them extra clear. Here is a few links that we liked to help you achieve that:
+
+- [GitHub Guides: Mastering Issues](https://guides.github.com/features/issues/)
+- [Wiredcraft: How We Write Github Issues](https://wiredcraft.com/blog/how-we-write-our-github-issues/)
+- [NYC Planning Digital: Writing Useful Github Issues](https://medium.com/nyc-planning-digital/writing-a-proper-github-issue-97427d62a20f)
+
 ## Questions?
 
 Join [our Slack](https://slack.opencollective.com) or [email support](mailto:support@opencollective.com).
