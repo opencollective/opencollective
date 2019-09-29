@@ -14,7 +14,7 @@ Our Bounty model is simple:
 - \$300: medium complexity
 - \$1,000: high complexity
 
-We want to attract quality contributions. The issue will only be considered complete and approved for payment if the Pull Request is merged by an Open Collective [Core Contributor](https://github.com/orgs/opencollective/teams/core-contributors).
+We want to attract quality contributions. The issue will only be considered complete and approved for payment if the Pull Request is merged by an Open Collective Core Contributor.
 
 ### Workflow for Bounty Hunters
 
@@ -26,9 +26,9 @@ We want to attract quality contributions. The issue will only be considered comp
 
 1. Open a Pull Request and ask for feedback and review
 
-1. Incorporate feedback from [Core Contributors](https://github.com/orgs/opencollective/teams/core-contributors), if applicable
+1. Incorporate feedback from Core Contributors, if applicable
 
-1. PR is reviewed, approved, and merged by a [Core Contributor](https://github.com/orgs/opencollective/teams/core-contributors)
+1. PR is reviewed, approved, and merged by a Core Contributor
 
 1. Get paid:
    - If you can issue an invoice, submit it as expense to [Open Collective Engineering](https://opencollective.com/engineering)
