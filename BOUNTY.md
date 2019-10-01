@@ -20,17 +20,17 @@ We want to attract quality contributions. The issue will only be considered comp
 
 1. Search for issues with attached bounties:
 
-- [Bounties for all repositories](https://github.com/opencollective/opencollective/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abounty)
+   - [Bounties for all repositories](https://github.com/opencollective/opencollective/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abounty)
 
-1. Express interest by commenting on the issue and ask to be assigned
+2. Express interest by commenting on the issue and ask to be assigned
 
-1. Open a Pull Request and ask for feedback and review
+3. Open a Pull Request and ask for feedback and review
 
-1. Incorporate feedback from [Core Contributors](https://github.com/orgs/opencollective/teams/core-contributors), if applicable
+4. Incorporate feedback from [Core Contributors](https://github.com/orgs/opencollective/teams/core-contributors), if applicable
 
-1. PR is reviewed, approved, and merged by a [Core Contributor](https://github.com/orgs/opencollective/teams/core-contributors)
+5. PR is reviewed, approved, and merged by a [Core Contributor](https://github.com/orgs/opencollective/teams/core-contributors)
 
-1. Get paid:
+6. Get paid:
    - If you can issue an invoice, submit it as expense to [Open Collective Engineering](https://opencollective.com/engineering)
    - If you can't issue an invoice, ask to be rewarded with an Open Collective Gift Card
 
@@ -40,36 +40,36 @@ _See [more info about getting paid](https://docs.opencollective.com/help/expense
 
 1. Make sure the issue is understandable for newcomers and expectations are clearly set
 
-1. Tag issues with the "bounty" label and amount (e.g. "\$100")
+2. Tag issues with the "bounty" label and amount (e.g. "\$100")
 
-1. Add a comment with a basic explanation of the Bounty process and link to BOUNTY.md
+3. Add a comment with a basic explanation of the Bounty process and link to BOUNTY.md
 
    > A $100 bounty was attached to this issue. Anyone submitting a Pull Request will be rewarded with $100 when the Pull Request is reviewed, accepted and merged. [More info](BOUNTY.md).
 
-1. Make sure the issue is understandable for newcomers and expectations are clearly set
+4. Make sure the issue is understandable for newcomers and expectations are clearly set
 
 ### Contributor Ladder
 
 1. First Time Contributors
 
-- Not part of the Open Collective GitHub organization
-- Fork our projects on GitHub and push changes on their forks
-- Have access to minimal or simple complexity issues
-- Should comment on bounty issues to get assigned (limited to one at a time)
+   - Not part of the Open Collective GitHub organization
+   - Fork our projects on GitHub and push changes on their forks
+   - Have access to minimal or simple complexity issues
+   - Should comment on bounty issues to get assigned (limited to one at a time)
 
-1. Contributors (at least 1 completed issue)
+2. Contributors (at least 1 completed issue)
 
-- Added to the "Contributors" group in the Open Collective GitHub organization
-- Can push branches to the Open Collective repositories
-- Have access to minimal, simple or medium complexity issues
-- Can assign themselves bounty issues (limited to one at a time)
+   - Added to the "Contributors" group in the Open Collective GitHub organization
+   - Can push branches to the Open Collective repositories
+   - Have access to minimal, simple or medium complexity issues
+   - Can assign themselves bounty issues (limited to one at a time)
 
-1. Recurring Contributors (3 or more completed issues)
+3. Recurring Contributors (3 or more completed issues)
 
-- Added to the "Recurring Contributors" group in the Open Collective GitHub organization
-- Can assign themselves two bounty issues at a time
+   - Added to the "Recurring Contributors" group in the Open Collective GitHub organization
+   - Can assign themselves two bounty issues at a time
 
-1. Confirmed Contributors (3 or more completed issues including at least 2 with medium complexity)
+4. Confirmed Contributors (3 or more completed issues including at least 2 with medium complexity)
 
-- Added to the "Confirmed Contributors" group on the Open Collective GitHub organization
-- Become candidates to work on complex issues or projects on a negotiable per-project or hourly rate
+   - Added to the "Confirmed Contributors" group on the Open Collective GitHub organization
+   - Become candidates to work on complex issues or projects on a negotiable per-project or hourly rate
