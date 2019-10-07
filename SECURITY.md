@@ -152,14 +152,14 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 
 ## Process
 
-- Reporter submit a report
+- Reporter submit a report. To make sure that you don't loose too much time preparing a nice report if the issue is already known from us, you can submit just a small summary without technical details and proofs of concepts.
 - Open Collective Team...
-  - Confirms that the report has been received
-  - Tries to confirm/reproduce the issue
-  - Discuss results and possible impact to determine the score (low/medium/high/critical) and bounty amount
-- Reporter is rewarded with a bounty at this stage (if applicable)
-- Team works on a fix, verifies it an pushes it
-- Team confirms that the issue has been patched and may ask reporter to check the fix
+  - Confirms that the report has been received. If it's an unknown issue, we may ask you for more details.
+  - Tries to confirm/reproduce the issue.
+  - Discuss results and possible impact to determine the score (low/medium/high/critical) and bounty amount.
+- Reporter is rewarded with a bounty at this stage (if applicable).
+- Team works on a fix, verifies it an pushes it.
+- Team confirms that the issue has been patched and may ask reporter to check the fix.
 - We write a postmortem to document the issue. From this point it is safe for reporter to go public about the issue.
 
 ## How do we calculate the severity score
