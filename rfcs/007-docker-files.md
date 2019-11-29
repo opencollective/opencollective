@@ -1,4 +1,4 @@
-# RFC 007 - Add Docker files to improve api setup
+# RFC 007 - Add Docker files to improve API setup
 
 ## Affected projects
 
