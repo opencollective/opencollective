@@ -69,7 +69,7 @@ to add members by their collective ID, introducing a new way of exploiting this 
 ## What could have been better
 
 - Working on the Collective picker to add users as members of the collective a few weeks ago,
-  I should have realized that the design I introduced was flawed. I lacked of critical thinking and reproduced
+  we should have realized that the design we introduced was flawed. We lacked of critical thinking and reproduced
   what existed for adding a user by ID without thinking that it could be exploited to harvest data.
 
 ## Special thanks
