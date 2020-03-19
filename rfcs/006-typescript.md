@@ -12,7 +12,7 @@ interesting benefits such as:
 - Better error detection
 
 [It is said](http://ttendency.cs.ucl.ac.uk/projects/type_study/documents/type_study.pdf) that
-types can help to prevent ~15% bugs. They are especialy useful to specify what's nullable,
+types can help to prevent ~15% bugs. They are especially useful to specify what's nullable,
 what's not and the expected return types. Issues like https://github.com/opencollective/opencollective/issues/1596
 could have been prevented by using Typescript.
 

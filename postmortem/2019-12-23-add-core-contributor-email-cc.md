@@ -22,7 +22,7 @@ without their consent, we should consider that this issue may have been exploite
 
 - **2019-12-22 17:24**
   The [Tauri security team](https://github.com/tauri-apps/tauri) (reporter) tries to contact us
-  on `security@opencollective.com`, unfortunatelly the address bounces (issue fixed since).
+  on `security@opencollective.com`, unfortunately the address bounces (issue fixed since).
 - **2019-12-22 17:30**
   Reporter sends the report to `pia@opencollective.com`
 - **2019-12-22 17:37**

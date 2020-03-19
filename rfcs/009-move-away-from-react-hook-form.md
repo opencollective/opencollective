@@ -6,7 +6,7 @@ Frontend
 
 We've introduced ReactHookForm (RHF) a few weeks ago. The resulsts for building simple forms like
 `CreateConversationForm` were pretty good, but the recent experience with the new expense flow
-was terrible. I spent a lot of time working arround inconsistent behaviors and incomplete features
+was terrible. I spent a lot of time working around inconsistent behaviors and incomplete features
 (see below), detailing the issues and [contributing](https://github.com/react-hook-form/react-hook-form/pull/1011) to
 the library to try to add the pieces that were missing for us. I now think that we should change our
 strategy and review the decision made in [006-use-react-hook-form](./006-use-react-hook-form.md).
@@ -44,7 +44,7 @@ the work of [Bill](https://github.com/bluebill1049) (see the [contribution graph
 often no one else is involved in the discussion of "should we implement that".
 
 This maintainer is doing a great job, leading the work for such a popular library alone is a
-huge challange and the overall reactions are good - the person is not to blame!
+huge challenge and the overall reactions are good - the person is not to blame!
 
 But we know that having a single maintainer is not a sign of good health in an open source project.
 
