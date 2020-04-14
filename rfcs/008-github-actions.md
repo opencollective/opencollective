@@ -39,5 +39,5 @@ GitHub Actions is now available and it could provide a better experience than Ci
 
 ## Adoption / Transition strategy
 
-- Start a trial period running CircleCI and GitHub Actions simultanously.
+- Start a trial period running CircleCI and GitHub Actions simultaneously.
 - After a few weeks, evaluate both tools and switch to GitHub Actions if the experience is better.
