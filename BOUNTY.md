@@ -34,7 +34,7 @@ We want to attract quality contributions. The issue will only be considered comp
    - If you can issue an invoice, submit it as expense to [Open Collective Engineering](https://opencollective.com/engineering)
    - If you can't issue an invoice, ask to be rewarded with an Open Collective Gift Card
 
-_See [more info about getting paid](https://docs.opencollective.com/help/expenses) through Open Collective_
+_See [more info about getting paid](https://docs.opencollective.com/help/expenses-and-getting-paid/submitting-expenses) through Open Collective_
 
 ### Workflow for Core Contributors
 
