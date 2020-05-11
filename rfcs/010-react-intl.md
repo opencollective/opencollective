@@ -12,6 +12,18 @@ We're using react-intl and have currently 2 ways of expressing a message ("defin
 
 ### defineMessages + formatMessage
 
+```
+const messages = defineMessages({
+  'exampleString': {
+    id: 'myComponent.exampleString',
+    defaultMessage: "This is an example string",
+  },
+```
+
+```
+<H3>{this.intl.formatMessage(messages['exampleString'])}<H3>
+```
+
 Pros:
 - Without JSX "bloat", concise
 - Can be assigned to a variable
@@ -25,6 +37,10 @@ Cons:
 - Unused strings are not automatically detected nor removed from the translations files, you need to remove them from the `defineMessages` first, and there's no linter warning to tell you wether they're used or not
 
 ### FormattedMessage
+
+```
+<H3><FormattedMessage id="myComponent.exampleString" defaultMessage="This is an example string" /><H3>
+```
 
 Pros:
 - Self contained
