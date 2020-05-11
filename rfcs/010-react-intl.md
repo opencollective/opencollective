@@ -41,7 +41,7 @@ By default, we should favor FormattedMessage because it's simpler and easier.
 
 "defineMessages + formatMessage" can be used in the following situations:
 
-- to use as attribute: ```attribute={formatMessage(messages.label}```
+- to use as attribute: ```attribute={formatMessage(messages.label)}```
 - use a variable for the message key: ```formatMessage(messages[stringId])```
 - manipulate string with Javascript: ```formatMessage(messages.label).toUpper()```
 
