@@ -17,6 +17,7 @@ Pros:
 - Can be assigned to a variable
 - Can be post manipulated in Javascript
 - Support values
+- Because it exports a string, it's sometimes the only option available (ie. to fill an HTML `select`'s options)
 
 Cons:
 - 2 steps: Needs first to defineMessages then formatMessage
