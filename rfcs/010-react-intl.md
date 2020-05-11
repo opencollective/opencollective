@@ -20,6 +20,7 @@ Pros:
 
 Cons:
 - 2 steps: Needs first to defineMessages then formatMessage
+- Unused strings are not automatically detected nor removed from the translations files, you need to remove them from the `defineMessages` first, and there's no linter warning to tell you wether they're used or not
 
 ### FormattedMessage
 
