@@ -52,7 +52,7 @@ Pros:
 
 Cons:
 - Doesn't looks right when used as attribute
-- Can't be assigned to a variable or manipulated in Javascript
+- Can't be manipulated in Javascript
 
 ## Recommandation
 
