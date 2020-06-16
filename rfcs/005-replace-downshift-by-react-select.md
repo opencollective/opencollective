@@ -34,7 +34,7 @@ See [React-Select](https://react-select.com/home#fixed-options)
 
 - Asynchronously fetch for options
 
-Could be usefull if we want to implement an autocomplete select to pick a collective. We had this use case for "archive collective", to transfer the remaining funds to another collective.
+Could be useful if we want to implement an autocomplete select to pick a collective. We had this use case for "archive collective", to transfer the remaining funds to another collective.
 
 See [React-Select - Async](https://react-select.com/async)
 

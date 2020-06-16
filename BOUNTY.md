@@ -14,7 +14,7 @@ Our Bounty model is simple:
 - \$200: simple complexity
 - \$500: medium complexity
 
-We want to attract quality contributions. The issue will only be considered complete and approved for payment if the Pull Request is merged by an Open Collective [Core Contributor](https://github.com/orgs/opencollective/teams/core-contributors).
+We want to attract quality contributions. The issue will only be considered complete and approved for payment if the Pull Request is merged by an Open Collective [Core Developer](https://github.com/orgs/opencollective/teams/core-developers).
 
 ### Workflow for Bounty Program Contributors
 
@@ -26,15 +26,15 @@ We want to attract quality contributions. The issue will only be considered comp
 
 3. Open a Pull Request and ask for feedback and review
 
-4. Incorporate feedback from [Core Contributors](https://github.com/orgs/opencollective/teams/core-contributors), if applicable
+4. Incorporate feedback from [Core Developers](https://github.com/orgs/opencollective/teams/core-developers), if applicable
 
-5. PR is reviewed, approved, and merged by a [Core Contributor](https://github.com/orgs/opencollective/teams/core-contributors)
+5. PR is reviewed, approved, and merged by a [Core Developer](https://github.com/orgs/opencollective/teams/core-developers)
 
 6. Get paid:
    - If you can issue an invoice, submit it as expense to [Open Collective Engineering](https://opencollective.com/engineering)
    - If you can't issue an invoice, ask to be rewarded with an Open Collective Gift Card
 
-_See [more info about getting paid](https://docs.opencollective.com/help/expenses) through Open Collective_
+_See [more info about getting paid](https://docs.opencollective.com/help/expenses-and-getting-paid/submitting-expenses) through Open Collective_
 
 ### Workflow for Core Contributors
 
