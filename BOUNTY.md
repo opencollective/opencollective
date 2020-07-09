@@ -14,7 +14,7 @@ Our Bounty model is simple:
 - \$200: simple complexity
 - \$500: medium complexity
 
-We want to attract quality contributions. The issue will only be considered complete and approved for payment if the Pull Request is merged by an Open Collective [Core Developer](https://github.com/orgs/opencollective/teams/core-developers).
+We want to attract quality contributions. The issue will only be considered complete and approved for payment if the Pull Request is merged by an Open Collective [Core Developer](https://docs.opencollective.com/help/about/team).
 
 ### Workflow for Bounty Program Contributors
 
@@ -26,9 +26,9 @@ We want to attract quality contributions. The issue will only be considered comp
 
 3. Open a Pull Request and ask for feedback and review
 
-4. Incorporate feedback from [Core Developers](https://github.com/orgs/opencollective/teams/core-developers), if applicable
+4. Incorporate feedback from [Core Developers](https://docs.opencollective.com/help/about/team), if applicable
 
-5. PR is reviewed, approved, and merged by a [Core Developer](https://github.com/orgs/opencollective/teams/core-developers)
+5. PR is reviewed, approved, and merged by a [Core Developer](https://docs.opencollective.com/help/about/team)
 
 6. Get paid:
    - If you can issue an invoice, submit it as expense to [Open Collective Engineering](https://opencollective.com/engineering)
