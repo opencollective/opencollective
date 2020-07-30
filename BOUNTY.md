@@ -8,7 +8,9 @@ The Open Collective engineering team is small and we're always looking for new c
 
 ## How it works
 
-Our Bounty model is simple:
+Based on the importance of the issue and its complexity, we attach a bounty between $100 and $1000 to the ticket.
+
+For reference, until July 2020, we used the following model but we moved to the more flexible one:
 
 - \$100: minimal or unknown complexity
 - \$200: simple complexity
