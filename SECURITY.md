@@ -34,14 +34,15 @@ You must ideally do all the testing locally. See the following links:
 - API: https://github.com/opencollective/opencollective-api
 - Frontend: https://github.com/opencollective/opencollective-frontend
 - Invoices: https://github.com/opencollective/opencollective-invoices
+- Rest: https://github.com/opencollective/opencollective-rest
 - Images: https://github.com/opencollective/opencollective-images
-- BackYourStack: https://github.com/opencollective/backyourstack
 
 In case you really need to test on a live environment, we provide staging servers on the following URLs:
 
 - API: https://api-staging.opencollective.com
 - Frontend: https://staging.opencollective.com
 - Invoices: https://invoices-staging.opencollective.com
+- Rest: https://rest-staging.opencollective.com
 - Images: https://images-staging.opencollective.com
 
 ## Contact
@@ -102,7 +103,7 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 | Frontend      | Web Application | +++                  | \$50 | \$100  | \$200 | \$500    |
 | Invoices      | API             | ++                   | \$25 | \$50   | \$100 | \$250    |
 | Images        | API             | ++                   | \$25 | \$50   | \$100 | \$250    |
-| BackYourStack | Web Application | +                    | \$15 | \$30   | \$75  | \$150    |
+| REST          | API             | ++                   | \$15 | \$30   | \$75  | \$150    |
 
 ## Qualifying vulnerabilities
 
