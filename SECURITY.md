@@ -180,3 +180,4 @@ Things that we take into account to adjust the score for vulnerabilities:
 - Allow to take control or leak information about payment methods
 - Compromise the integrity or historicity of our transactions ledger
 - Compromise the permission system
+## Sumuis
