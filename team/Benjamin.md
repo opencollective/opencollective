@@ -38,3 +38,63 @@ Links
 - GitHub: [@betree](https://github.com/betree)
 - Twitter (not really active): [@Betree83](https://twitter.com/Betree83)
 - Website: https://benjamin.piouffle.com
+
+Favorite dev tips
+-------------
+
+### Browser bookmarks to quickly login on `dev`/`staging`
+
+I have this two bookmarks in my browsers that allow me to login in one click on dev, staging and deploy previews (Vercel). Big time saver when you have to switch
+environments multiple times per day. Just create a new bookmark and copy/paste the code below in the "URL" field, replacing `YOUR_TOKEN_HERE` with the content of your `localStorage.accessToken` (you need to be logged in with the account you want to save):
+
+```es6
+javascript:(function(){localStorage.accessToken="YOUR_TOKEN_HERE"; window.location.reload();})();
+```
+
+![image](https://user-images.githubusercontent.com/1556356/105514937-5ee7be00-5cd4-11eb-98dc-f9efba5ac5ba.png)
+
+### Commonly used Chrome extensions
+
+While I use Firefox as my main browser, I mostly dev on Chrome. I find these extensions pretty helpful:
+
+- [Smart page ruler](https://chrome.google.com/webstore/detail/smart-page-ruler/nmibbjghlmdiafjolcphdggihcbcedmg): to easily measure things & compare with design
+- [Whatfonts](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm): to quickly change font styles
+- [Grid ruler](https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj): mainly to check alignments
+- [headingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi): to check titles hierarchy
+- [Apollo Client Developer Tools](https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm): to see what's in that nasty Apollo cache
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
+
+### Snippet to quickly generate `FormattedMessage`
+
+Working with internationalization can be tedious. This VSCode snippet makes my life easier:
+
+```json
+{
+  "Formatted Message (react-intl)": {
+    "scope": "javascript",
+    "prefix": "formatted-message",
+    "body": "<FormattedMessage id=\"$TM_FILENAME_BASE.$0\" defaultMessage=\"$1\"/>",
+    "description": "Put the given string in a FormattedMessage"
+  }
+}
+```
+
+![Preview](https://user-images.githubusercontent.com/1556356/105513345-79b93300-5cd2-11eb-8a12-eaedfad60402.gif)
+
+
+### Github notifications
+
+I use the following filters to catch up with GH notifications:
+
+#### OC - Followed PRs
+Description: Activirty on PRs that I follow (as an author, reviewer, assignee or because I was mentionned)
+```
+repo:opencollective/opencollective-frontend repo:opencollective/opencollective-changelog repo:opencollective/opencollective-api repo:opencollective/opencollective-pdf repo:opencollective/opencollective-bot repo:opencollective/opencollective-taxes repo:opencollective/opencollective-zapier repo:opencollective/opencollective-security repo:opencollective/opencollective-workers is:issue-or-pull-request reason:assign reason:author reason:comment reason:manual reason:mention reason:review-requested reason:team-mention
+```
+
+#### OC - Followed issues
+Description: Activirty on PRs that I follow (as an author, assignee or because I was mentionned)
+```
+repo:opencollective/opencollective reason:assign reason:author reason:comment reason:mention reason:manual  reason:team-mention 
+```
