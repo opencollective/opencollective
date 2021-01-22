@@ -44,7 +44,7 @@ Favorite dev tips
 
 ### Browser bookmarks to quickly login on `dev`/`staging`
 
-I have this two bookmarks in my browsers that allow me to login in one click on dev, staging and deploy previews (Vercel). Big time saver when you have to switch
+I have these two bookmarks in my browsers that allow me to login in one click on dev, staging and deploy previews (Vercel). Big time saver when you have to switch
 environments multiple times per day. Just create a new bookmark and copy/paste the code below in the "URL" field, replacing `YOUR_TOKEN_HERE` with the content of your `localStorage.accessToken` (you need to be logged in with the account you want to save):
 
 ```es6
