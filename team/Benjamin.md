@@ -88,13 +88,13 @@ Working with internationalization can be tedious. This VSCode snippet makes my l
 I use the following filters to catch up with GH notifications:
 
 #### OC - Followed PRs
-Description: Activirty on PRs that I follow (as an author, reviewer, assignee or because I was mentionned)
+Description: Activity on PRs that I follow (as an author, reviewer, assignee or because I was mentionned)
 ```
 repo:opencollective/opencollective-frontend repo:opencollective/opencollective-changelog repo:opencollective/opencollective-api repo:opencollective/opencollective-pdf repo:opencollective/opencollective-bot repo:opencollective/opencollective-taxes repo:opencollective/opencollective-zapier repo:opencollective/opencollective-security repo:opencollective/opencollective-workers is:issue-or-pull-request reason:assign reason:author reason:comment reason:manual reason:mention reason:review-requested reason:team-mention
 ```
 
 #### OC - Followed issues
-Description: Activirty on PRs that I follow (as an author, assignee or because I was mentionned)
+Description: Activity on PRs that I follow (as an author, assignee or because I was mentionned)
 ```
 repo:opencollective/opencollective reason:assign reason:author reason:comment reason:mention reason:manual  reason:team-mention 
 ```
