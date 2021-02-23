@@ -33,7 +33,7 @@ You must ideally do all the testing locally. See the following links:
 
 - API: https://github.com/opencollective/opencollective-api
 - Frontend: https://github.com/opencollective/opencollective-frontend
-- Invoices: https://github.com/opencollective/opencollective-invoices
+- PDF: https://github.com/opencollective/opencollective-pdf
 - Rest: https://github.com/opencollective/opencollective-rest
 - Images: https://github.com/opencollective/opencollective-images
 
@@ -41,7 +41,7 @@ In case you really need to test on a live environment, we provide staging server
 
 - API: https://api-staging.opencollective.com
 - Frontend: https://staging.opencollective.com
-- Invoices: https://invoices-staging.opencollective.com
+- PDF: https://pdf-staging.opencollective.com
 - Rest: https://rest-staging.opencollective.com
 - Images: https://images-staging.opencollective.com
 
@@ -101,7 +101,7 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 | ------------- | --------------- | -------------------- | ---- | ------ | ----- | -------- |
 | API           | API             | +++                  | \$50 | \$100  | \$200 | \$500    |
 | Frontend      | Web Application | +++                  | \$50 | \$100  | \$200 | \$500    |
-| Invoices      | API             | ++                   | \$25 | \$50   | \$100 | \$250    |
+| PDF service   | API             | ++                   | \$25 | \$50   | \$100 | \$250    |
 | Images        | API             | ++                   | \$25 | \$50   | \$100 | \$250    |
 | REST          | API             | ++                   | \$15 | \$30   | \$75  | \$150    |
 
@@ -177,6 +177,6 @@ CVSS3 score:
 Things that we take into account to adjust the score for vulnerabilities:
 
 - Everything related to authentication
-- Allow to take control or leak information about payment methods
+- Allow to take control or leak information about payment methods or connected accounts
 - Compromise the integrity or historicity of our transactions ledger
 - Compromise the permission system
