@@ -76,5 +76,5 @@ to add members by their collective ID, introducing a new way of exploiting this 
 
 Special thanks to the [Tauri security team](https://github.com/tauri-apps/tauri) (https://opencollective.com/tauri)
 for sending us a very detailed report on the issue, as well as suggestions on how to fix it.
-According to our [Security Policy](https://github.com/opencollective/opencollective/blob/master/SECURITY.md),
+According to our [Security Policy](https://github.com/opencollective/opencollective/blob/main/SECURITY.md),
 the `High` status of this issue make them eligible for a \$200 bounty.
