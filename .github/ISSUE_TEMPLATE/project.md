@@ -23,6 +23,8 @@ assignees: ''
 
 - Does this serve our mission
 
+- Will this help to make us financially sustainable within a year?
+
 - Can this make us move faster?
 
 - Does this increase quality? 
@@ -30,8 +32,6 @@ assignees: ''
 - Does this add technical debt?
 
 - Is it feasible to build and maintain with our current team and runway?
-
-- Will this help to make us financially sustainable within a year?
 
 - Is this problem already solved elsewhere or is it based on insight or research?
 
