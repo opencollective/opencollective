@@ -52,7 +52,7 @@ assignees: ''
 
 ### Release planning
 
-** Estimated delivery date**
+**Estimated delivery date**
 
 - Which aspect(s) of the platform does this change impact?
 - Which group(s) of users will benefit from this change?
