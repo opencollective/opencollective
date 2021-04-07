@@ -72,6 +72,5 @@ assignees: ''
 - Open up issues for improvements 
 - Post comm's according to comm's plan (most likely in release issue)
 - Post project screencast on documentation slack channel 
-- Post comm's according to comm's plan
 - Post project closure in newsletter slack channel 
 - Celebrate!! 
