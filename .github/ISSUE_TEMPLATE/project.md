@@ -45,7 +45,7 @@ assignees: ''
 ## Kick-off meeting
 
 ### Roadmap & Timeframe
-(Key milestones or phases and estimated dates. Consider including further scoping, discovery, and prototyping. Include as a minimum: planning, design, development, documentationm, feedback, iteration and, marketing )
+(Key milestones or phases and estimated dates. Consider including further scoping, discovery, and prototyping. Include as a minimum: planning, design, development, documentation, feedback, iteration and, marketing)
 
 ### Success metrics
 (What we will judge outcomes of the project by)
