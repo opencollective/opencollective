@@ -34,7 +34,7 @@ assignees: ''
 - Is it feasible to build and maintain with our current team and runway?
 
 - What insight or research is this project based on?
-- Is thisproblem already solved elsewhere?
+- Is this problem already solved elsewhere?
 
 - How will we measure our success? Do we have a baseline today that we can compare this against?
 
