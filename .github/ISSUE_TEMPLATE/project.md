@@ -56,7 +56,7 @@ assignees: ''
 
 - Which aspect(s) of the platform does this change impact?
 - Which group(s) of users will benefit from this change?
-- Is this project in response to a user-requested feautre? If so who requested it (link to feature request if available)?
+- Is this project in response to a user-requested feature? If so who requested it (link to feature request if available)?
 - Is this project related to any similar work we have done, or are planning on doing in the next three months?
 
 ### Next steps
