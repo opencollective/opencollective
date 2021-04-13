@@ -10,7 +10,7 @@ Bio
 
 I was born in the US and lived in several countries in Asia and Europe before settling in New Zealand, where I now live with my partner, two kids, and little black cat.
 
-I prevously founded several open-source social enterprise startups, including [Loomio](https://loomio.org), [Cobudget](https://cobudget.co), and [Enspiral](https://enspiral.com).
+I previously founded several open-source social enterprise startups, including [Loomio](https://loomio.org), [Cobudget](https://cobudget.co), and [Enspiral](https://enspiral.com).
 
 
 Schedule
