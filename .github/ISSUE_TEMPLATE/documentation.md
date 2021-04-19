@@ -38,7 +38,7 @@ assignees: ''
 <!-- Use this section to provide an overview of the changes that we think we'll need to make. -->
 
 ### Changes to be made
-<!-- Use this section to outline, at a hgih level, which pages will need to be added, modified, removed etc -->
+<!-- Use this section to outline, at a high level, which pages will need to be added, modified, removed etc -->
 
 ### Estimate of effort
 <!-- How long do we think it will take to make those changes, how long after completing the development do we think we'll need to ensure docs are ready to go for lauch? -->
