@@ -17,7 +17,7 @@ assignees: ''
 <!-- Help us understand why we're making this change, what is it going to help users achieve? -->
 
 ### Who does this change impact?
-<!-- Which groups of users are going to impacted by this change: contributors, collective admins, hosts, all? -->
+<!-- Which groups of users are going to be impacted by this change: contributors, collective admins, hosts, all? -->
 
 ### How do users use it?
 <!-- How are users going to interact with the platform in order to achieve the goals we set out? --> 
