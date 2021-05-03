@@ -18,7 +18,7 @@ Schedule
 
 Based in Aix-en-Provence, I'm in the [CET](https://en.wikipedia.org/wiki/Central_European_Time) timezone.
 
-I usually start my day between 8h and 9h and finish between 16h30 and 18h (depending on of the workload and whether I took a real pause at noon).
+I'm on a 36h/week schedule, and usually start my day between 8h and 9h to finish between 16h30 and 18h. On Wednesdays, I finish between 12h and 14h (not working the afternoon).
 
 The fastest way to reach me is through [Open Collective's Slack](https://slack.opencollective.com/) (I use my real name there),
 email is also fine for non-emergencies.
