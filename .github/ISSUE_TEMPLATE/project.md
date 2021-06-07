@@ -50,6 +50,12 @@ assignees: ''
 ### Success metrics
 (What we will judge outcomes of the project by)
 
+### Risks
+<!-- If this project is going to go wrong, what's the mostly likely cause and what can you do to rerisk up front? -->
+
+- Risk:
+- Mitigation:
+
 ### Release planning
 
 **Estimated delivery date**
