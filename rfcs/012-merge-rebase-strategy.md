@@ -34,31 +34,29 @@ These guidelines propose interactive rebasing which comes with the following dow
 needs to be solved for each commit separately rather than as a whole. While merging seems easier since it takes the whole diff
    and applies it in one go.
    
-For the reasons mentioned above, this RFC proposes a solution in terms of GitHub settings so that we stick to one method
-whilst giving contributors the ability to choose whatever method they prefer.
+For the reasons mentioned above, this RFC proposes a solution in terms of GitHub settings in order to stick to one method when merging PRs,
+whilst giving contributors the ability to choose a method they prefer(merging, interactive rebasing etc) for their own branches/PRs.
 
 ## Best Practice
 
-I feel there's no best practice on this matter but different workflows that are suitable for different teams.
-For Open Collective projects only core team members are merging, and we cannot possibly enforce all the 
-community to interactively rebase Git history. Hence, currently we are mostly relying on squashing and merging. 
+There's no best practice on this matter but different workflows that are suitable for different teams.
+For Open Collective projects only core team members are merging. It's hard or probably impossible to enforce all the 
+community to interactively rebase Git history. Hence, currently we are mostly relying on squashing and merging PRs which are not 
+interactively rebased and have multiple commits, or those which have merge commits from main branch. 
 
-However, given that enforcing interactive re-bases for all branches are impossible I would argue we need to enforce a standard
-on our end (when merging). Whether contributors use interactive re-basing or not, or if they choose to use simple merging, we could
-still have a cleaner Git history if we always make sure to squash and merge PRs. 
+Whether contributors use interactive re-basing, or if they choose to use simple merging, a cleaner Git history could still be 
+achieved if PRs are squashed before merging. 
 
 ### Downside of this approach
 
 One downside is that when squashing and merging the person who merge needs to verify the commit title and description and make sure
 it makes sense. The GitHub interface automatically creates a commit description by concatenating all the commits in the branch. 
-Although I don't see this as a problem since even for an interactively re-based branch; while merging it's probably good practice
-to see if the commit(s) make sense. 
+Although this seems to work in most cases it's probably a good practice to see if the commit(s) make sense while merging. 
 
 ## Solution
 
-[Suggest disabling `Create a merge commit` from the GitHub settings](https://docs.github.com/en/github/administering-a-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests) 
-as it's probably not suitable for our use. Using that option always will create merge commits and we will not have 
-a clean Git history. We could possibly also disable `Rebase and merge` as well although I would argue leaving it in case someone would like to explicitly include
+[Disable `Create a merge commit` from the GitHub settings](https://docs.github.com/en/github/administering-a-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests) 
+as it's probably not suitable for use. Using that option will create merge commits and will prevent a clean Git history. Additionally, suggest also disabling `Rebase and merge` as well although it could be argued to leave it in case someone would like to explicitly include
 several commits to the `main` branch. The squash and merge option should work for us in all cases. 
 
 As an alternative or a stricter enforcement of this standard we can also add the [`Require linear history` branch protection rule 
