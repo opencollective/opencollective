@@ -4,7 +4,7 @@
 
 All the projects under the [Open Collective organization](https://github.com/opencollective).
 
-## Motivation
+## Current Practice
 
 It's not always clear what merge strategy to use when merging PRs. Currently, core contributors are free to use
 whatever they prefer when merging PRs. GitHub allows three ways,
