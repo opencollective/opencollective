@@ -47,6 +47,24 @@ interactively rebased and have multiple commits, or those which have merge commi
 Whether contributors use interactive re-basing, or if they choose to use simple merging, a cleaner Git history could still be 
 achieved if PRs are squashed before merging. 
 
+Some major projects such as NextJS, React and Babel seem to use the same approach in maintaining their Git histories. Some examples are given below.
+
+For NextJS; https://github.com/vercel/next.js/pull/25198. In this case the contributor uses lot of commit messages and also merge from `canary` (the default branch of NextJS) to their branch. 
+However, the final result is just a single commit without any merges.
+
+![image](https://user-images.githubusercontent.com/12435965/122803708-d158cc00-d27b-11eb-8f99-ac6d7a26fa43.png)
+
+Similarly, here's a recent example for React; https://github.com/facebook/react/pull/21648. This seems a squash merge;
+
+![image](https://user-images.githubusercontent.com/12435965/122802824-b20d6f00-d27a-11eb-8db9-10ba529bb9a6.png)
+
+For Babel: https://github.com/babel/babel/pull/13419. Again this seems to be a squash merge;
+
+![image](https://user-images.githubusercontent.com/12435965/122803003-f39e1a00-d27a-11eb-8f00-f34d480af450.png)
+
+Therefore, it could be argued that the squash and merge approach is suitable and works in maintaining a linear Git history while
+also making sure the contributors get full flexibility to choose how they arrange their branch commits.
+
 ### Downside of this approach
 
 One downside is that when squashing and merging the person who merge needs to verify the commit title and description and make sure
