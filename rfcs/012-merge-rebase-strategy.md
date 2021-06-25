@@ -74,8 +74,9 @@ Although this seems to work in most cases it's probably a good practice to see i
 ## Solution
 
 [Disable `Create a merge commit` from the GitHub settings](https://docs.github.com/en/github/administering-a-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests) 
-to help maintain a linear Git history. Additionally, suggest also disabling `Rebase and merge` as well although it could be argued to leave it in case someone would like to explicitly include
+to help maintain a linear Git history. But keep the `Rebase and merge` option in case someone would like to explicitly include
 several commits to the `main` branch. The squash and merge option should work for us in all cases. 
 
-As an alternative or a stricter enforcement of this standard we can also add the [`Require linear history` branch protection rule 
-to `main` branch](https://docs.github.com/en/github/administering-a-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule).
+Also add the [`Require linear history` branch protection rule 
+to `main` branch](https://docs.github.com/en/github/administering-a-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule) to 
+avoid merge comments being written to the main branch.
