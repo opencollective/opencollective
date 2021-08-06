@@ -22,17 +22,17 @@ This was fortunately not the case, we were just wrongly displaying all open invi
 
 ## Impact
 
-From 12:24PM to 7:40PM UTC, users were able to see all Member Invitations in the Pending Invitations page.
+From 12:24PM to 7:40PM UTC, users were seeing all Member Invitations in the Pending Invitations page as if they were invited to those collectives.
 
 ## Timeline
 
 (UTC August 5th, 2021)
 
-- **12:24PM**
+- **12:24**
   Faulty PR is deployed to production.
-- **13:21PM**
+- **13:21**
   Contributor submits patch PR for review.
-- **19:31PM**
+- **19:31**
   Security email is posted on slack.
 - **19:40**
   Contributor PR is deployed to production.
