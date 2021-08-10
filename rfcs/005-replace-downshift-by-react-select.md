@@ -22,7 +22,7 @@ By using a library to handle our selects, we can benefit from other rich feature
 
 # Solution
 
-I've used `react-select` in the past. It's a mature library (it went through major re-designs for v2 and V3) that is actually the more popular select library for react (almost 17.000 stars on Github). It uses the same patterns than `styled-component` for customization, so we'll be able to implement our design system easily.
+I've used `react-select` in the past. It's a mature library (it went through major re-designs for v2 and V3) that is actually the more popular select library for react (almost 17.000 stars on GitHub). It uses the same patterns than `styled-component` for customization, so we'll be able to implement our design system easily.
 
 In addition to everything you could expect from a select, it has the following features:
 
