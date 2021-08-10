@@ -33,7 +33,7 @@ main maintainer tends to show that we shouldn't expect from the library to cover
 Feature requests are [not tracked in an open way](https://github.com/react-hook-form/react-hook-form/issues/979#issuecomment-582843971) and issues are systematically closed without being implemented, which creates a
 lot of duplicates and uncertainty about wether or not issues will be addressed.
 
-A [Github project](https://github.com/react-hook-form/react-hook-form/projects/1)
+A [GitHub project](https://github.com/react-hook-form/react-hook-form/projects/1)
 supposedly addresses that, but it's only a bunch of cards with a short descriptions and it's unclear how
 things end up there (it may be somehow transparent, but it's not open).
 
