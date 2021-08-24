@@ -2,7 +2,7 @@
 
 ## Summary
 
-On Thursday, August 5th 2021, we got an email reporting that the user had access to see all Member Invitations through the Pending Invitations link in the user menu and they we're worried it could use that to gain admin access to any collective.
+On Thursday, August 5th 2021, we got an email reporting that the user had access to see all Member Invitations through the Pending Invitations link in the user menu and they were worried it could use that to gain admin access to any collective.
 The bug was quickly tracked down to a faulty member invitation query and actually didn't pose any security threat.
 
 ## Analysis
@@ -17,7 +17,7 @@ Although the code was reviewed multiple times by core team members, one error sl
 
 This error was originally caught by the author after the code was deployed to production. The author opened a PR and submitted for the responsible core team member to review. The responsible core team member usually reads his notifications once as the first action of the day and since this was submitted after, it was bound to be caught on the next day.
 
-The core team was notified about the issue by an email sent to our security email by an user that was worried this was a critical bug that would allow them to join any collective.
+The core team was notified about the issue by an email sent to our security email by a user that was worried this was a critical bug that would allow them to join any collective.
 This was fortunately not the case, we were just wrongly displaying all open invitations as if it was meant to the logged in user.
 
 ## Impact
@@ -54,7 +54,7 @@ Fixed variables in patch 6408: https://github.com/opencollective/opencollective-
 
 - Our existing resolvers should by default implement typing so contributors can take them as example.
 - Writing more tests and request that from contributors.
-- We could DM responsibles as a way to ensure they're aware of important patches even though we notified them in GitHub.
+- We could DM core team members as a way to ensure they're aware of important patches even though we notified them in GitHub.
 
 ## Special thanks
 
