@@ -26,7 +26,7 @@ assignees: ''
 <!-- Why should we prioritize this project? -->
 
 **Impact**
-<!-- What is the perceived impact of this project? How condifent are we about this? -->
+<!-- What is the perceived impact of this project? How confident are we about this? -->
 
 **Alignment**
 <!-- How well does this project align with our mission, our current goals and focus? -->
