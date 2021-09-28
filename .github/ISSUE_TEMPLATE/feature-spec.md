@@ -1,6 +1,6 @@
 ---
 name: Feature Spec
-about: Use this issue for new features or feature updates
+about: Use this issue to describe a new feature or updates to an existing feature
 title: ''
 labels: 'feature'
 assignees: ''

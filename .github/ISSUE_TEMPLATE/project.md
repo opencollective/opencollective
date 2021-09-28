@@ -11,7 +11,7 @@ assignees: ''
 <!-- (What is the need, problem or challenge we are tackling? -->
 
 ## Ownership
-<!-- Add yourself as owner here, discuss ownership with another iif needed -->
+<!-- Add yourself as owner here, discuss ownership with another if needed -->
 **Owner:** 
 <!-- Add the following roles as they develop, again discuss ownership before @mentioning -->
 <!-- **Product:** -->
@@ -26,7 +26,7 @@ assignees: ''
 <!-- Why should we prioritize this project? -->
 
 **Impact**
-<!-- What is the perceived impact of this project? How condifent are we about this? -->
+<!-- What is the perceived impact of this project? How confident are we about this? -->
 
 **Alignment**
 <!-- How well does this project align with our mission, our current goals and focus? -->
@@ -45,7 +45,7 @@ assignees: ''
 Feel free to use the following text as templates for further work on this issue:
 
 <details>
-<summary>Further Prioritisation </summary>
+<summary>Further Prioritization </summary>
 <pre>
 - How does this serve our mission
 - Will this help to make us financially sustainable within a year?
@@ -68,7 +68,7 @@ Feel free to use the following text as templates for further work on this issue:
 - Scoping
 - Prototyping/validating
 - Development
-- Release prep (documentaiton, marketing etc.)
+- Release prep (documentation, marketing etc.)
 - Release
 - Retrospective
 </pre>
@@ -81,7 +81,7 @@ Feel free to use the following text as templates for further work on this issue:
 Measure: What is the measure?
 Current baseline: What is the baseline that we see today?
 Target: how do we want to see that move?
-Link: link to query on metabase
+Link: link to query on Metabase
 </pre>
 </details>
 
@@ -112,7 +112,7 @@ If this project is going to go wrong, what's the most likely cause and what can 
 <pre>
 ## Next up
 - Create a project board, add this issue to the description
-- Open up any issues to decompartmentalise the project, add them to the project board
+- Open up any issues to de-compartmentalize the project, add them to the project board
 - Open a documentation issue, add it to the documentation project board, reference this issue. 
 above 
 </pre>
@@ -124,7 +124,7 @@ above
 - Close all relevant project issues
 - Open up issues for improvements 
 - Post comm's according to comm's plan
-- Post project screencast on #documentation slack channel 
+- Post project screen-cast on #documentation slack channel 
 - Post project closure in #newsletter slack channel 
 - Celebrate!! 
 </pre>
