@@ -21,7 +21,7 @@ _When <situation>, I want to <motivation>, so I can <outcome>_
 <!-- problems with workarounds already followed are likely to have a greater need for the individual. --> 
 
 <details>
-  <summary>Triage Template (team only)</summary>
+  <summary>Triage Template (core team only)</summary>
 
   This template is for members of the team to triage for prioritisation. For more guidance see https://www.loom.com/share/369ab467fbc64dec848085d38ff57ca0:
 
