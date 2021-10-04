@@ -38,7 +38,7 @@ If applicable, add screenshots to help explain your problem.
 Add any other context about the problem here.
 
 <details>
-  <summary>Triage Template (team only)</summary>
+  <summary>Triage Template (core team only)</summary>
 
   This template is for members of the team to triage for prioritisation. For more guidance see https://www.loom.com/share/369ab467fbc64dec848085d38ff57ca0:
 
