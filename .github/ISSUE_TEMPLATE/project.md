@@ -15,10 +15,9 @@ assignees: ''
 **Owner:** 
 <!-- Add the following roles as they develop, again discuss ownership before @mentioning -->
 <!-- **Product:** -->
-<!-- **Design** -->
-<!-- **Engineering**  -->
-<!-- **Documentation**  -->
-<!-- **Documentation**  -->
+<!-- **Design:** -->
+<!-- **Engineering:**  -->
+<!-- **Documentation:**  -->
 
 *Note: Project owner responsibilities include coordinating all the different people that need to contribute to the project, defining specs and goals, communicating project progress, being the point person for decisions, QA, documentation, and a plan for ongoing maintenance. If the project owner can't continue, they need to hand the role over to another person explicitly.*
 
