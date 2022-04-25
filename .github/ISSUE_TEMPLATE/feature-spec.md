@@ -2,7 +2,7 @@
 name: Feature Spec
 about: Use this issue to describe a new feature or updates to an existing feature
 title: ''
-labels: 'feature'
+labels: ''
 assignees: ''
 
 ---

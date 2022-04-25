@@ -2,7 +2,7 @@
 name: Project
 about: For project owners in our core team to kick off new projects
 title: "[PROJECT]"
-labels: 'project'
+labels: ''
 assignees: ''
 
 ---

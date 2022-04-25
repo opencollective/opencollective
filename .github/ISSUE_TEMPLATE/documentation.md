@@ -2,7 +2,7 @@
 name: Documentation
 about: For project owners to kick off the project documentation process
 title: "[DOCS]"
-labels: 'documentation'
+labels: documentation
 assignees: ''
 
 ---
