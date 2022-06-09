@@ -2,7 +2,7 @@
 name: Documentation
 about: For project owners to kick off the project documentation process
 title: "[DOCS]"
-labels: 'documentation'
+labels: documentation
 assignees: ''
 
 ---
@@ -28,7 +28,7 @@ assignees: ''
 ### Is this change being released incrementally as a beta? What's the schedule?
 <!-- is this change a beta, how can users give us feedback or report bugs, is there any specific feedback we're looking for? -->
 
-### When will the project be ready for release/complete?
+### When will the project be ready for release/complete?
 <!-- We need to understand when we need to have documentation prepped and ready to launch, there may be some conversation once the docs team have reviewed this -->
 
 ## Docs Process
@@ -40,5 +40,5 @@ assignees: ''
 ### Changes to be made
 <!-- Use this section to outline, at a high level, which pages will need to be added, modified, removed etc -->
 
-### Estimate of effort
+### Estimate of effort
 <!-- How long do we think it will take to make those changes, how long after completing the development do we think we'll need to ensure docs are ready to go for lauch? -->
