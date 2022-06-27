@@ -5,13 +5,13 @@ This proposal emerged from research into open-source projects hosted by OSC abou
 
 The research included an interview with Nicholas Zakas of the [ESLint project](https://opencollective.com/eslint) who has done rigorous work on tending to corporate funding and has been able to provide the project with reliable and consistent funding. The project recently launched a new website that includes a [donate page](https://eslint.org/donate/) with the following graphic:
 
-![[CategorizingExpenses_A01_ESLintExample.png]]
+![a01](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_A01_ESLintExample.png)
 
 During the interview Nicholas expressed a wish to be able to organize their expenses on the platform into these categories in order to be able to produce such a graph directly baed on the actual expenses. **The original intent of this proposal was to embrace this request as an enhancement to expenses that would make this kind of reporting possible for all collectives on the platform based on real data while inheriting from and reinforcing the platform trustworthiness**
 
-![[CategorizingExpenses_A02_Aspiration.png]]
+![a02](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_A02_Aspiration.png)
 
-  *in the above wireframe categorized expenses are aggregated for the current year, the past three years and since the beginning of the collective's financial history*
+  *in the above wireframe categorized expenses are aggregated for a selected year, or all years since the beginning of the collective's financial history and the graph mode can be toggled between pie/bar*
 
 ## Unexpected Discoveries
 The capability that we currently have that approximates this behavior is expense-tags. these are currently used in two ways:
@@ -70,7 +70,7 @@ The scopes are presented here in a narrative sequence that lends itself to under
 ### Scope1: Fiscal Host Accounting Categories
 Enable a fiscal host admin to setup accounting categories for expenses:
 
-![[CategorizingExpenses_B01_FiscalHost_AccountingCategories.png]]
+![b01](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_B01_FiscalHost_AccountingCategories.png)
 
 *hamburger menu button gives access to additional operations such as delete and assignment to collective expense categories (described below)*
 
@@ -79,14 +79,14 @@ Enable a fiscal host to:
 1. create a default/recommended set of categories for its hosted collectives 
 2. and to associate the default collective categories with the fiscal host accounting categories.
 
-![[CategorizingExpenses_B02_FiscalHost_DefaultCollectiveCategories.png]]
+![b02](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_B02_FiscalHost_DefaultCollectiveCategories.png)
 
 This suggested list can be modified freely even after it has been used by collectives since each collective has an independently managed set of categories (collectives can choose which categories they wish to use, ignore other categories and create their own categories).
 
 ### Scope3: Collective  Expense Categories
 Each collective can choose which categories they wish to use, they can rename categories and add their own categories. 
 
-![[CategorizingExpenses_B03_Collective_CustomizedExpenseCategories.png]]
+![b03](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_B03_Collective_CustomizedExpenseCategories.png)
 
 In the future there may be an option to add default colors to each category (for charting purposes) that inherits defaults from the fiscal host global definitions andcan be modified by collective admins.
 
@@ -100,14 +100,14 @@ However there are two other usage scenarios that introdue a UI pattern that may 
 #### Assigning Expenses to Categories
 A list of expenses can be filtered by status (all/unassigned/assigned) and date range (current month, previous month, selection of past months, date range) and each expense can be assigned to the collectivei expense category.
 
-![[CategorizingExpenses_B04_Collective_AssignExpenses.png]]
+![b04](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_B04_Collective_AssignExpenses.png)
 
 #### Assist Mode: Categorizing a History of Expenses
 When assist mode is active, an interface is activated to help the collective admin effectively sort historically unassigned expenses. This will be a crucial features when expense categorization is first rolled out. 
 
 In assist mode, when an unassigned expense is placed into an expense category, an assistive modal interface surfaces "similar expenses" that can also be added to the selected category. Similar expenses can be expenses submitted by the same person and an amount that has a similar order-of-magnitude (eg a $200 payment will bring up other payments that are  in the hundreds of dollars) or, if there are already tags, that have the same tag.
 
-![[CategorizingExpenses_B05_Collective_AssignExpenses_Assist.png]]
+![b05](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_B05_Collective_AssignExpenses_Assist.png)
 
 In the future, if necessary and justified, assist capability can be expanded to allow re-assignment of expenses from one category to another: when one expense is moved, the assist interface can suggest moving other expenses from the category.
 
@@ -120,7 +120,7 @@ However, fiscal hosts require an additional review process due to:
 
 Here, one person (a fiscal host admin) reviews all monthly expenses and either confirms the already assigned accounting categories or reassigns to correct accounting categories.:
 
-![[CategorizingExpenses_B06_FiscalHost_AssignExpenses.png]]
+![b06](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_B06_FiscalHost_AssignExpenses.png)
 
 If the list is filtered to show only unreviewed expenses and the checklist is auto-saving, then this UI will act as a checklist and expenses will disappear off the screen until the review work is done. 
 
@@ -139,14 +139,15 @@ There are three pathways to establishing links between fiscal host accounting ca
 
 #### 1: Dedicated Fiscal Host User Interface 
 Here a fiscal host admin can review all collective expense categories and link them to accounting categories. 
-![[CategorizingExpenses_B07_FiscalHost_Linking_Basic.png]]
+
+![b07](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_B07_FiscalHost_Linking_Basic.png)
 
 *The list can be filtered to show unassigned expense categories (that have been created or modified by collective admins) so that they can be linked to accounting categories.*
 
 #### 2: Tweaking via Accounting Categories
 Here a fiscal host admin can edit an accounting category and review which expense categories have been assigned to it (default categories created by the fiscal host and additional categories created by collective admins). The fiscal host can remove expense categories or move them to another accounting category:
 
-![[CategorizingExpenses_B08_FiscalHost_Linking_ViaCategories.png]]
+!b08](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_B08_FiscalHost_Linking_ViaCategories.png)
 
 *this wireframe is displayed as a modal (accessed through the hamburger menu) on top of the accountinc category interface described in scope1 - however it can also be designed to be in-line by showing expanded information onthe main page for a selected accounting category.*
 
@@ -155,4 +156,4 @@ A fiscal host administrator who reviews expenses and categorizes them for accoun
 
 When such an expense is assigned to an accounting category the fiscal host admin is prompted and given an option to link the expense category to the accounting category:
 
-![[CategorizingExpenses_B07_FiscalHost_Linking_InlineExpenses.png]]
+![b09](https://github.com/opencollective/opencollective/blob/main/product/pitches/assets/CategorizingExpenses_B07_FiscalHost_Linking_InlineExpenses.png)
