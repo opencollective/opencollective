@@ -1,11 +1,11 @@
-#Privacy Policy of OpenCollective
+# Privacy Policy of OpenCollective
 
 OpenCollective collects some Personal Data from its Users.
 Data Controller and Owner
 OpenCollective, Inc. 340 S LEMON AVE #3717 Walnut 91789 CA USA,
 info@opencollective.com
 
-###Types of Data collected
+### Types of Data collected
 Among the types of Personal Data that OpenCollective collects, by itself or through third parties, there are: first name, email address, Twitter handle, Cookies and Usage data.
 Other Personal Data collected may be described in other sections of this privacy policy or by dedicated explanation text contextually with the Data collection.
 The Personal Data may be freely provided by the User, or collected automatically when using OpenCollective.
@@ -13,7 +13,7 @@ Any use of Cookies - or of other tracking tools - by OpenCollective or by the ow
 Failure to provide certain Personal Data may make it impossible for OpenCollective to provide its services.
 Users are responsible for any Personal Data of third parties obtained, published or shared through OpenCollective and confirm that they have the third party's consent to provide the Data to the Owner.
 
-###Mode and place of processing the Data
+### Mode and place of processing the Data
 **Methods of processing**
 
 The Data Controller processes the Data of Users in a proper manner and shall take appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data.
@@ -27,11 +27,11 @@ The Data is processed at the Data Controller's operating offices and in any othe
 
 The Data is kept for the time necessary to provide the service requested by the User, or stated by the purposes outlined in this document, and the User can always request that the Data Controller suspend or remove the data.
 
-###The use of the collected Data
+### The use of the collected Data
 The Data concerning the User is collected to allow the Owner to provide its services, as well as for the following purposes: Registration and authentication, Handling payments, Analytics, Contacting the User, Managing contacts and sending messages and Hosting and backend infrastructure.
 The Personal Data used for each purpose is outlined in the specific sections of this document.
 
-###Detailed information on the processing of Personal Data
+### Detailed information on the processing of Personal Data
 Personal Data is collected for the following purposes and using the following services:
 
 **Analytics** 
@@ -90,7 +90,7 @@ Direct registration (OpenCollective)
 The User registers by filling out the registration form and providing the Personal Data directly to OpenCollective.
 Personal Data collected: email address, first name and Twitter handle.
 
-###Further information about Personal Data
+### Further information about Personal Data
 
 **Data Handling by Collective and/or Host**
 
@@ -100,7 +100,7 @@ The Owner may share Data with the Collective and/or Host for the uses set out in
 
 Users declare themselves to be adult according to their applicable legislation. Under no circumstance minors can use Open Collective.
 
-###Additional information about Data collection and processing
+### Additional information about Data collection and processing
 
 **Legal action**
 
@@ -133,37 +133,38 @@ The Data Controller is responsible for this privacy policy, prepared starting fr
 
 **Definitions and legal references**
 
-*Personal Data (or Data)*<br>
+*Personal Data (or Data)*
 Any information regarding a natural person, a legal person, an institution or an association, which is, or can be, identified, even indirectly, by reference to any other information, including a personal identification number.
 
-*Usage Data*<br>
+*Usage Data*
 Information collected automatically from OpenCollective (or third party services employed in OpenCollective), which can include: the IP addresses or domain names of the computers utilized by the Users who use OpenCollective, the URI addresses (Uniform Resource Identifier), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server's answer (successful outcome, error, etc.), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit (e.g., the time spent on each page within the Application) and the details about the path followed within the Application with special reference to the sequence of pages visited, and other parameters about the device operating system and/or the User's IT environment.
 
-*User*<br>
+*User*
 The individual using OpenCollective, which must coincide with or be authorized by the Data Subject, to whom the Personal Data refers.
 
-*Data Subject*<br>
+*Data Subject*
 The legal or natural person to whom the Personal Data refers.
 
-*Data Processor (or Data Supervisor)*<br>
+*Data Processor (or Data Supervisor)*
 The natural person, legal person, public administration or any other body, association or organization authorized by the Data Controller to process the Personal Data in compliance with this privacy policy.
 
 *Data Controller (or Owner)*<br>
 The natural person, legal person, public administration or any other body, association or organization with the right, also jointly with another Data Controller, to make decisions regarding the purposes, and the methods of processing of Personal Data and the means used, including the security measures concerning the operation and use of OpenCollective. The Data Controller, unless otherwise specified, is the Owner of OpenCollective.
 
-*OpenCollective*<br>
+*OpenCollective*
 The hardware or software tool by which the Personal Data of the User is collected.
 
-*Collective*<br>
+*Collective*
 Means the group of registered users, jointly and severally, who create a project on OpenCollective for fundraising purposes and/or for managing money as a group whilst providing full visibility to all members of the ongoing transactions.
 
-*Host*<br>
+*Host*
 Each User who is an individual or corporation, either profit or non profit, and acts as a sponsor or patronize a Collective’s project.
 
-*Cookies*<br>
+*Cookies*
 Small piece of data stored in the User's device.
 
-**Legal information**<br>
+**Legal information**
+
 Notice to European Users: this privacy statement has been prepared in fulfillment of the obligations under Art. 10 of EC Directive n. 95/46/EC, and under the provisions of Directive 2002/58/EC, as revised by Directive 2009/136/EC, on the subject of Cookies.
 This privacy policy relates solely to OpenCollective.
 
