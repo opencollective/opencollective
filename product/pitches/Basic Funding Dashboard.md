@@ -84,7 +84,8 @@ Initially this should be rolled out in the admin-section of collectives and orga
 
 ## Challenges & Open Questions
 1. Will this interface make sense if it shows up for organizations/collectives who do not make contributions? If not how should this be mitigated?
-2. Performance - how to implemen this so that the user interface is responsive and usable?
+2. Performance - how to implement this so that the user interface is fluent, responsive and usable?
+3. How do we populate the "ecosystem" field?
 
 
 ## Future Potentials 
