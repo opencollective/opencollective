@@ -26,4 +26,4 @@ This repository serves as [our main issue tracker](https://github.com/opencollec
 
 ## Questions?
 
-Join [our Slack](https://slack.opencollective.com) or [email support](mailto:support@opencollective.com).
+[email support](mailto:support@opencollective.com)
