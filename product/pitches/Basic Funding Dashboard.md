@@ -25,9 +25,13 @@ This proposal is an MVP based on data that is currently available on the platfor
 
 ### Basic Dashboard
 
-#### OSC Example
+#### Open Source Collective Example
+![funders_dashboard_osc_02a](https://user-images.githubusercontent.com/8337819/185387962-3e1e06d6-e6f8-4790-b790-1abe53a2586d.jpg)
 
-#### OCF Example
+
+#### Open Collective Foundation Example
+![funders_dashboard_ocf_02a](https://user-images.githubusercontent.com/8337819/185388003-41019de9-d6bc-41c6-b35c-fb1559197809.jpg)
+
 
 The dashboard provides a funder with information aggregated per collective (~open-source project):
 1. A set of icons that indicate relationship with the collective (the possible relationships may be expanded/elaborated over time)
@@ -52,10 +56,11 @@ An aggregate ot total and current recurring expenses is also shown.
 A funder can assign collectives to investment categories as a basic way of both interacting with the information and for giving the tool funder-specific context. Investment categories are an initial gesture towards being able to manage and organize contributions to formulate, execute and monitor a funding strategy (that will be explored in future product iterations). 
 
 ### Filters
-*** insert filtered view
+![funders_dashboard_filtered_02a](https://user-images.githubusercontent.com/8337819/185388103-67662ef3-af73-4e6e-b905-8cc596559d10.jpg)
+
 
 The dashboard can be filtered by:
-1. YEar - all contributions / selected year
+1. Year - all contributions / selected year
 2. Investment category
 3. Funding - All contributions / one-time only / recurring-only
 4. Relationship - funding / following / supported (non-funding)
@@ -64,24 +69,25 @@ The dashboard can be filtered by:
 ### Grouping
 
 The dashboard can also be grouped by investment category or relationship:
-*** insert grouped view
+![funders_dashboard_grouped_02a](https://user-images.githubusercontent.com/8337819/185388154-66201678-872f-4e9d-8572-de6a7862effd.jpg)
 
-When group-by is activated intermediate summaries are also presented. 
+
+When grouping is activated intermediate summaries are also presented. 
 
 ### Expand Collective
-*** insert modal view with my past funding
 
 A collective can be clicked to show more detailed information.
 
 The first view that is offered is a detailed list of funding contributions to the collective.
-*** insert my funding modal view
+![funders_dashboard_modal_myfundinghistory_02a](https://user-images.githubusercontent.com/8337819/185388245-7bde36ae-510a-4c0e-9441-80dbb32fe3af.jpg)
+
 
 The second view shows all the historical funding the collective has received with an added emphasis on the funder's contribution relative to all other contributions. 
+![funders_dashboard_modal_allfundinghistory_02a](https://user-images.githubusercontent.com/8337819/185388277-98723362-ba6b-4721-a86f-f42326a6f86e.jpg)
 
+This modal view can gradually be populated with more information/context to support the effort to support a funding strategy.
 
-### Integration in the Platform UI
-This proposal has been informed by research into OSC funders. However, it can be useful at the platform level for other funders.
-
+### Integration in the Platform 
 Initially this should be rolled out in the admin-section of collectives, funds and organizations who handle and contribute funds. For now, this is NOT a public facing feature.
 
 ## Challenges & Open Questions
@@ -105,6 +111,7 @@ Within the context of OSC (and depending on how the basic dashboard will be rece
 4. Open-Source Dependency Revenue Sharing - if OC implements tools for revenue sharing from open source projects to their dependencies. This can be indicated on this dashboard & the dashboard itself may become useful for the open source collectives themselves.  
 5. Summoning Open-Source projects - there is a potential for this to become a mechanism for inviting in open-source project that are not currently on the platform. If funders elect to use this tool to manage off-platform funding they may be motivated to ask off-platform open-source projects to come to the platform to receive funding ... and we may be motivated to help them do so.
 6. Work attribution - We are implementing a mechanism for submitting attributions for work (code and non-code) that goes into open-source projects. While this is primarily targeted at the open-source projects themselves it can impact funders in two ways. First, it may reveal information about unfunded work that should be funded.Second, it enables funders to also express their non-funding contributions to open-source (dedicated employees, events, computing resources, etc.) ... and this too can be integrated into the dashboard and overall funding strategy.
+7. Employee Managed Funds - we are contemplating a capability for funders to allocate funds that employees (or small teams) can distribute independently to open source projects they value. Those contributions can also be integrated into this dashboard. 
 
 
 ### Open Collective Strategic Potentials
