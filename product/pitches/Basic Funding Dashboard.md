@@ -21,7 +21,7 @@ This pitch is offered as a large (4 week) project.
 
 ## Proposal
 
-This proposal is an MVP created as a low cost (and correspondingly, at least initially, moderate impact) tool **based primarily on data that is already available on the platform**. It doees however serve as a gravitational center that will expand as we advance on the OSC product roadmap. Ultimately it is designed to become a tool where funders can formulate, execute and monitor the impact of their funding strategy.  
+This proposal is an MVP created as a low cost (and correspondingly, at least initially, moderate impact) tool **based primarily on data that is already available on the platform**. It does however serve as a gravitational center that will expand as we advance on the OSC product roadmap. Ultimately it is designed to become a tool where funders can formulate, execute and monitor the impact of their funding strategy.  
 
 ### Basic Dashboard
 
