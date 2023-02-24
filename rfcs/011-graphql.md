@@ -43,7 +43,7 @@ Good
 
 All GraphQL queries and mutations needs to be wrapped in a `gql` tag, this is necessary for Apollo and also detected by Eslint and Prettier.
 
-For requests to the GraphQL API v2, it should be `gglV2/* GraphQL */`, it's currently the only way to have it properly processed by Eslint and Prettier.
+For requests to the GraphQL API v1, it should be `gqlV1/* GraphQL */`, it's currently the only way to have it properly processed by Eslint and Prettier.
 
 ### With React HOC
 
