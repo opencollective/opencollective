@@ -99,11 +99,11 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 
 | Project       | Type            | Security requirement | Low  | Medium | High  | Critical |
 | ------------- | --------------- | -------------------- | ---- | ------ | ----- | -------- |
-| API           | API             | +++                  | \$100 | \$200  | \$300 | \$600    |
-| Frontend      | Web Application | +++                  | \$100 | \$200  | \$300 | \$600    |
-| PDF service   | API             | ++                   | \$50 | \$100   | \$200 | \$300    |
-| Images        | API             | ++                   | \$50 | \$100   | \$200 | \$300    |
-| REST          | API             | ++                   | \$50 | \$100   | \$200  | \$300    |
+| API           | API             | +++                  | \$120 | \$300  | \$600 | \$1200    |
+| Frontend      | Web Application | +++                  | \$120 | \$300  | \$600 | \$1200    |
+| PDF service   | API             | ++                   | \$60 | \$150   | \$300 | \$600    |
+| Images        | API             | ++                   | \$60 | \$150   | \$300 | \$600    |
+| REST          | API             | ++                   | \$60 | \$150   | \$300  | \$600    |
 
 ## Qualifying vulnerabilities
 
