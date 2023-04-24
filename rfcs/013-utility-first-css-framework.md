@@ -59,7 +59,7 @@ Extra reading/listening:
   - Tailwind UI provides a great starting point for a lot of components - not having to reinvent the wheel for a lot of basic things
 - Increased developer happiness
   - I've personally found working with Tailwind and it's ecosystem a lot easier and more fun than say styled-components
-- Design and Engineering can focus less on making sure that basic components like Buttons, Dropdowns, Modals, Forms, etc, look good and function well - and focus more on domain-specific design challenges that are unique to Open Collective - and have access to more consistent primitives while doing so
+- @opencollective/design and @opencollective/developers can focus less on making sure that basic components like Buttons, Dropdowns, Modals, Forms, etc, look good and function well - and focus more on domain-specific design challenges that are unique to Open Collective - and have access to more consistent primitives while doing so
 
 ## Alternatives
 
