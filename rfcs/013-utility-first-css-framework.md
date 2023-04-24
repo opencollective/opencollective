@@ -41,7 +41,7 @@ Extra reading/listening:
 - [Headless UI](https://headlessui.com/) - unstyled fully accessible (screen reader support, keyboard interactions etc) component primitives (Dropdowns, Modals, Switches, Comboboxes etc)
 - [Tailwind UI](https://tailwindui.com/)
   - Component library built with TailwindCSS, Headless UI and Heroicons
-  - Requires a license. I have an individual license, but a team license is $500 (discounted from already owning a license) which includes up to 25 seats
+  - Requires a license. I have an individual license, but a team license is a one-time fee of $500 (discounted from $799 from already owning a license) which includes up to 25 seats
   - The major benefit of something like Tailwind UI is that these components are not imported as a npm library, but rather copy/pasted from examples - so that we are then free to evolve and modify the component as we see fit - seems to be ideal for both getting ready made components for basic things - as well as not being constrained in the design language
 - [Heroicons](https://heroicons.com/)
   - Icon library from the Tailwind creators - looks good and used in Tailwind UI components
