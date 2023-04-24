@@ -2,8 +2,8 @@
 
 ## Affected projects
 
-- [https://github.com/opencollective/opencollective-frontend](opencollective/opencollective-frontend)
-- [https://github.com/opencollective/opencollective-frontend](opencollective/discover) (already using TailwindCSS to some degree)
+- [opencollective/opencollective-frontend](https://github.com/opencollective/opencollective-frontend)
+- [opencollective/discover](https://github.com/opencollective/discover) (already using TailwindCSS to some degree)
 
 ## Motivation
 
@@ -11,14 +11,14 @@ Our current approach to CSS and styling using styled-components presents several
 
 - Custom CSS is often required
 - A lack of established standards
-  - We do have `styled-system` for some of this but cumbersome to use in my experience
+  - We do have `styled-system` for some of this but arguably cumbersome to use (and having to define the system ourselves)
 - Naming things is hard
 - Currently lack an approach to get prebuilt components from a library
 - Performance - processing styled components has substantial cost
 
 ## Solution
 
-Adopting [TailwindCSS](https://tailwindcss.com/) - a utility-first css framework - as our main approach to styling, together with complementary libraries to handle accessibility, styling composition, and prebuilt components.
+Adopting [TailwindCSS](https://tailwindcss.com/) - a utility-first css framework - as our main approach to styling, together with complementary libraries to handle accessibility, transitions and styling/variants composition, and a license to a component library (Tailwind UI) built with these tools.
 
 ### What is Utility-first CSS?
 
@@ -101,5 +101,5 @@ Since there is a lot of components and UI built with styled-components, we'd hav
   - [ ] Continue removing all global styles in `app.css`
   - [ ] Continue replacing all modals with new Modal.js
   - [ ] Switch out all icons to use Heroicons
-- Build new components using Tailwind - and use Tailwind UI components as a starting point
+- [ ] Build new components using Tailwind - and use Tailwind UI components as a starting point
 - [ ] Track progress through counting styled-components import counts compared to before adopting RFC
