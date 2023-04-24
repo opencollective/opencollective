@@ -100,5 +100,6 @@ Since there is a lot of components and UI built with styled-components, we'd hav
   - [ ] Switch out all "utility" styled components (<Grid />, <Box />, <Flex /> etc) with divs with utility classes
   - [ ] Continue removing all global styles in `app.css`
   - [ ] Continue replacing all modals with new Modal.js
+  - [ ] Switch out all icons to use Heroicons
 - Build new components using Tailwind - and use Tailwind UI components as a starting point
 - [ ] Track progress through counting styled-components import counts compared to before adopting RFC
