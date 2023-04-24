@@ -68,7 +68,7 @@ Extra reading/listening:
 
 ## Proof of concept
 
-- [PR with POC including all the tools listed above](https://github.com/opencollective/opencollective-frontend/pull/8827)
+[PR with POC including all the tools listed above](https://github.com/opencollective/opencollective-frontend/pull/8827) and some additional changes:
 - Two new/updated components as examples:
   - [InputSwitch.js](https://github.com/opencollective/opencollective-frontend/blob/ad360b3c1f3e83e618f29e9a5900967c90283087/components/InputSwitch.js)
     - starting point from Tailwind UI
