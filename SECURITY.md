@@ -167,13 +167,6 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 
 Our analysis is always based on worst case exploitation of the vulnerability, as is the reward we pay. We will rely on CVSS3 as well as internal criteria to score the vulnerabilities.
 
-CVSS3 score:
-
-- From 1 to 4 ==> Low
-- From 4 to 7 ==> Medium
-- From 7 to 9 ==> High
-- From 9 to 10 ==> Critical
-
 Things that we take into account to adjust the score for vulnerabilities:
 
 - Everything related to authentication
