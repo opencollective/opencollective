@@ -105,6 +105,8 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 | Images        | API             | ++                   | \$60 | \$150   | \$300 | \$600    |
 | REST          | API             | ++                   | \$60 | \$150   | \$300  | \$600    |
 
+Note: we are not able to pay bounties to people based in countries sanctioned by the United States, or countries where US sanctions are so widespread that our payment processors no longer serve them.
+
 ## Qualifying vulnerabilities
 
 - Remote code execution (RCE)
