@@ -11,7 +11,7 @@
 
 Our current approach to CSS and styling using styled-components presents several challenges:
 
-- Custom CSS is often required
+- It usually requires less code to write the same thing with Tailwind. With styled-components, custom CSS is often required.
 - A lack of established standards
   - We do have `styled-system` for some of this but arguably cumbersome to use (and having to define the system ourselves)
 - Naming things is hard
