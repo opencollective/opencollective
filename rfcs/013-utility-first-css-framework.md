@@ -4,6 +4,8 @@
 
 - [opencollective/opencollective-frontend](https://github.com/opencollective/opencollective-frontend)
 - [opencollective/discover](https://github.com/opencollective/discover) (already using TailwindCSS to some degree)
+- [opencollective/opencollective-frontend-template](https://github.com/opencollective/opencollective-frontend-template)
+- [opencollective/opencollective-pdf](https://github.com/opencollective/opencollective-pdf)
 
 ## Motivation
 
