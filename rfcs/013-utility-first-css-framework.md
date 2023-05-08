@@ -17,6 +17,9 @@ Our current approach to CSS and styling using styled-components presents several
 - Naming things is hard
 - Currently lack an approach to get prebuilt components from a library
 - Performance - processing styled components has substantial cost
+- Tailwind has gained a lot of traction in the last few years and is now a [more popular](https://ossinsight.io/analyze/styled-components/styled-components?vs=tailwindlabs%2Ftailwindcss#overview) option than styled-components. It has a rich ecosystem.
+- Filtering style props on components has been [historically difficult](https://styled-components.com/docs/api#shouldforwardprop). Even though a new pattern appeared since that filters props starting with a `$` (e.g. `<P $marginTop={8} />`) automatically, this problem simply doesn't exist with Tailwind.
+- Tailwind provides some [accessibility helpers](https://tailwindcss.com/docs/screen-readers) out of the box
 
 ## Solution
 
