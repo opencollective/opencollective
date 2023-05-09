@@ -157,7 +157,7 @@ export default function ListWidget({ items = [] }) {
 If we were to use instead TailwindCSS - we remove the need to break out of the component return statement to apply styles (while still having that option when needed for reusability), resulting in a shorter more condensed file. The 
 The design system is also working on any html element by default - not having to import any special utility components that accept the styled-system props. 
 Another benefit is easily seeing the styles they apply by hovering over the class name.
-```
+```jsx
 import React from 'react';
 
 import { cn } from '../lib/style';
