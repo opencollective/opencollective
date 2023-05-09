@@ -1,13 +1,14 @@
 # RFC 013 - Adopting a Utility-First CSS approach
+---
 
-## Affected projects
+# Affected projects
 
 - [opencollective/opencollective-frontend](https://github.com/opencollective/opencollective-frontend)
 - [opencollective/discover](https://github.com/opencollective/discover) (already using TailwindCSS to some degree)
 - [opencollective/opencollective-frontend-template](https://github.com/opencollective/opencollective-frontend-template)
 - [opencollective/opencollective-pdf](https://github.com/opencollective/opencollective-pdf)
 
-## Motivation
+# Motivation
 
 Our current approach to CSS and styling using styled-components presents several challenges:
 
@@ -20,6 +21,166 @@ Our current approach to CSS and styling using styled-components presents several
 - Tailwind has gained a lot of traction in the last few years and is now a [more popular](https://ossinsight.io/analyze/styled-components/styled-components?vs=tailwindlabs%2Ftailwindcss#overview) option than styled-components. It has a rich ecosystem.
 - Filtering style props on components has been [historically difficult](https://styled-components.com/docs/api#shouldforwardprop). Even though a new pattern appeared since that filters props starting with a `$` (e.g. `<P $marginTop={8} />`) automatically, this problem simply doesn't exist with Tailwind.
 - Tailwind provides some [accessibility helpers](https://tailwindcss.com/docs/screen-readers) out of the box
+
+## Code example/comparison
+### Styled Components
+First, an example using just `styled-components` (without our utility components and styled-system), showing the need to break out any element from the component return statement just to apply styling.
+
+```jsx
+import React, { useState } from 'react';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  background: #f3f4f6;
+  padding: 32px;
+  max-width: 512px;
+`;
+
+const ScrollingContainer = styled.div`
+  overflow-y: scroll;
+`;
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 16px;
+`;
+
+const Title = styled.h3`
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+`;
+
+const Sidebar = styled.div`
+  background: #fff;
+  border-radius: 8px;
+`;
+const ItemList = styled.ul`
+  > * + * {
+    margin-top: 8px;
+  }
+`;
+const Item = styled.li`
+  font-weight: 700;
+  color: ${props => (props.selected ? '#1d4ed8' : '#6b7280')};
+`;
+
+const ItemButton = styled.button`
+  border: none;
+`;
+
+export default function ListWidget({ items = [] }) {
+  const [selectedId, setSelectedId] = useState(null);
+  return (
+    <Container>
+      <Grid>
+        <ScrollingContainer>
+          <Title>Items</Title>
+          <ItemList>
+            {items.map(item => (
+              <Item key={item.id}>
+                <ItemButton selected={selectedId === item.id} onClick={() => setSelectedId(item.id)}>
+                  {item.title}
+                </ItemButton>
+              </Item>
+            ))}
+          </ItemList>
+        </ScrollingContainer>
+        <Sidebar>Info</Sidebar>
+      </Grid>
+    </Container>
+  );
+}
+```
+
+### A little bit better adding our utility components and styled-system
+By importing our pre-defined utility components (Container/Grid/H3/Flex/etc) we reduce the amount of Styled components we need to define. But we still need to import them. 
+
+And the CSS they apply is unclear, both the components themselves, but also the variables you provide. 
+
+For exmaple, the container accepts `p` for padding which I can either set to a string `8px` or a number, in which case it refers to our own pre-defined spacing config, which is hiding the fact that it is non-linear fairly well, having to find the file where the spacing is defined to find that out.
+
+```jsx
+import React from 'react';
+import styled from 'styled-components';
+import { themeGet } from 'styled-system';
+
+import Container from './Container';
+import { Grid } from './Grid';
+import { H3 } from './Text';
+
+const ItemList = styled.ul`
+  > * + * {
+    margin-top: 8px;
+  }
+`;
+const Item = styled.li`
+  font-weight: 700;
+  color: ${props => (props.selected ? themeGet('blue.700') : themeGet('black.600'))};
+`;
+
+const ItemButton = styled.button`
+  border: none;
+`;
+
+export default function ListWidget({ items = [] }) {
+  const [selectedId, setSelectedId] = React.useState(null);
+  return (
+    <Container maxWidth="512px" p={4} bg="black.100">
+      <Grid gridGap={2} gridTemplateColumns="repeat(3, minmax(0, 1fr))">
+        <Container overflowY="scroll">
+          <H3 fontSize="24px" lineHeight="32px" fontWeight={500}>
+            Items
+          </H3>
+          <ItemList>
+            {items.map(item => (
+              <Item key={item.id}>
+                <ItemButton selected={selectedId === item.id} onClick={() => setSelectedId(item.id)}>
+                  {item.title}
+                </ItemButton>
+              </Item>
+            ))}
+          </ItemList>
+        </Container>
+        <Container bg="white.full" borderRadius="8px">
+          Info
+        </Container>
+      </Grid>
+    </Container>
+  );
+}
+```
+
+### With TailwindCSS
+If we were to use instead TailwindCSS - we remove the need to break out of the component return statement to apply styles (while still having that option when needed for reusability), resulting in a shorter more condensed file. The 
+The design system is also working on any html element by default - not having to import any special utility components that accept the styled-system props. 
+Another benefit is easily seeing the styles they apply by hovering over the class name.
+```
+import React from 'react';
+
+import { cn } from '../lib/style';
+
+export default function ListWidget({ items = [] }) {
+  const [selectedId, setSelectedId] = React.useState(null);
+  return (
+    <div className="max-w-lg bg-gray-100 p-8">
+      <div className="grid grid-cols-3 gap-2">
+        <div className="col-span-2 overflow-y-scroll">
+          <h3 className="text-2xl font-medium">Items</h3>
+          <ul className="space-y-2">
+            {items.map(item => (
+              <li key={item.id} className={cn('font-bold', selectedId === item.id ? 'text-blue-700' : 'text-gray-500')}>
+                <button onClick={() => setSelectedId(item.id)}>{item.title}</button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+```
 
 ## Solution
 
