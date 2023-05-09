@@ -13,10 +13,11 @@
 Our current approach to CSS and styling using styled-components presents several challenges:
 
 - It usually requires less code to write the same thing with Tailwind. With styled-components, custom CSS is often required.
-- A lack of established standards
-  - We do have `styled-system` for some of this but arguably cumbersome to use (and having to define the system ourselves)
-- Naming things is hard
-- Currently lack an approach to get prebuilt components from a library
+- A lack of established standards (and those we have are difficult to use)
+  - We do have `styled-system` with our predefined config of spacing, colors, breakpoints, etc. Biggest drawback to me is the need to define and extend this ourselves. 
+  - We also have "utility components" (Flex/Grid/Box/P/H1/etc) - see example and more on these below
+- Naming things is hard - and `styled-components` require you to name (and break out from the jsx return statement) a lot of elements just to apply styling. See example below.
+- Currently lack an approach to utilize already styled components from external sources (except for Material UI - which has it's own drawbacks)
 - Performance - processing styled components has substantial cost
 - Tailwind has gained a lot of traction in the last few years and is now a [more popular](https://ossinsight.io/analyze/styled-components/styled-components?vs=tailwindlabs%2Ftailwindcss#overview) option than styled-components. It has a rich ecosystem.
 - Filtering style props on components has been [historically difficult](https://styled-components.com/docs/api#shouldforwardprop). Even though a new pattern appeared since that filters props starting with a `$` (e.g. `<P $marginTop={8} />`) automatically, this problem simply doesn't exist with Tailwind.
