@@ -10,21 +10,19 @@ We're currently using styled-icons which provides access to multiple icon librar
 
 The downside is that we end up using a bunch of different icon libraries with slightly different looks, sometimes using the same type of icon from several libraries in different places causing inconsistency in the UI and also confusion for developers in not knowing which one to pick.
 
+We're currently using 171 icons from 12 icon libraries.
+
 # Solution
 
-Adopting a single icon library.
+Proposing to adopt [Lucide Icons](https://lucide.dev/) as our single icon library (perhaps some exception for brand icons needed). It is a icon library with 1143 icons, that is actively developed and popular, and it contains replacements for all our current icons except a handful of brand icons.
 
-I'm proposing to adopt [Lucide Icons](https://lucide.dev/) as our single icon library (perhaps some exception for brand icons needed). It is a icon library with 1143 icons, that is actively developed and popular.
+See https://icons-test-gustav-opencollective.vercel.app/ for an overview of icons used in `opencollective-frontend` and a possible Lucide Icons replacement. The 171 icons from 12 libraries can be replaced by 97 Lucide icons, since there is a lot of duplicate icon imports.
 
 The icons from Lucide should technically work out of the box as replacements for the styled-icons, accepting the `size` property and be styleable using styled-components, although there might be some places where some positioning or sizing fixes would be needed.
 
 The icons also accept strokeWidth and a prop to enforce absoluteStrokeWidth instead of a scaled stroke, which is a nice benefit when working with smaller or bigger icons than usual.
 
 They have a fairly large set of "Money" icons which is useful for Open Collective being a money management platform.
-
-Extracting all our styled-icons import we can find we are using 171 icons from 12 libaries. Going through the list I found replacements for all except a handful of brand icons from `fa-brands`.
-
-An overview of icons and their replacement: https://icons-test-gustav-opencollective.vercel.app/
 
 # Alternatives
 
