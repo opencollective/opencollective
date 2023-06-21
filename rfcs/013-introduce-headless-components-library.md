@@ -20,21 +20,21 @@ If it has some drawbacks, include them as well.
 
 ## Alternatives
 
-|                          | Material Base | Headless UI | PrimeReact | Radix UI | ReaKit | Reach UI | React Aria |
-| ------------------------ | ------------- | ----------- | ---------- | -------- | ------ | -------- | ---------- |
-| Popularity               |               |             |            |          |        |          |            |
-| Maturity                 |               |             |            |          |        |          |            |
-| Maintenance              |               |             |            |          |        |          |            |
-| License                  |               |             |            |          |        |          |            |
-| Tailwind Comp.           |               |             |            |          |        |          |            |
-| **Supported components** |               |             |            |          |        |          |            |
-| Modal                    |               |             |            |          |        |          |            |
-| Checkbox                 |               |             |            |          |        |          |            |
-| Toggle                   |               |             |            |          |        |          |            |
-| Tooltip                  |               |             |            |          |        |          |            |
-| Select                   |               |             |            |          |        |          |            |
-| Dropdown                 |               |             |            |          |        |          |            |
-| Collapsible              |               |             |            |          |        |          |            |
+|                            | Material Base | Headless UI | PrimeReact | Radix UI                         | ReaKit | Reach UI | React Aria |
+| -------------------------- | ------------- | ----------- | ---------- | -------------------------------- | ------ | -------- | ---------- |
+| Popularity (weekly npm dl) | 737k          | 1.1m        | 87k        | 1.9m (@radix-ui/react-primitive) | 165k   | n/a      | 163k       |
+| Maturity                   |               |             |            |                                  |        |          |            |
+| Maintenance                |               |             |            |                                  |        |          |            |
+| License                    | MIT           | MIT         | MIT        | MIT                              |        | MIT      | Apache 2.0 |
+| Tailwind Comp.             |               | Good        |            | Good                             |        |          |            |
+| **Supported components**   |               |             |            |                                  |        |          |            |
+| Modal                      |               | ✅          |            | ✅                               |        |          |            |
+| Checkbox                   |               | ❌          |            | ✅                               |        |          |            |
+| Toggle                     |               | ✅          |            | ✅                               |        |          |            |
+| Tooltip                    |               | ❌          |            | ✅                               |        |          |            |
+| Select                     |               | ✅          |            | ✅                               |        |          |            |
+| Dropdown                   |               | ✅          |            | ✅                               |        |          |            |
+| Collapsible                |               | ❌          |            | ✅                               |        |          |            |
 
 Note: Popularity is rated based on the number of GitHub stars and downloads, Maturity is based on the library's age and stability, and Maintenance is based on the frequency of updates and the responsiveness of maintainers. Compatibility with Tailwind is rated based on the level of official support or the availability of community-made integrations. The checkboxes for each library indicate whether they support the listed components, as requested.
 
