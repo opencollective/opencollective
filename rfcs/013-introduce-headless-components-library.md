@@ -40,13 +40,9 @@ If it has some drawbacks, include them as well.
 
 Note: Popularity is rated based on the number of GitHub stars and downloads, Maturity is based on the library's age and stability, and Maintenance is based on the frequency of updates and the responsiveness of maintainers. Compatibility with Tailwind is rated based on the level of official support or the availability of community-made integrations. The checkboxes for each library indicate whether they support the listed components, as requested.
 
-## Proof of concept
-
-<!-- If applicable, add a link to a PR or an example that demonstrate the change -->
-
 ## Adoption / Transition strategy
 
-<!--
-If applicable, how are we going to migrate existing code? How are we going to document and teach
-that to ensure that existing and new contributors will acknowledge this change?
--->
+- Start using Radix components when we need them (since they're imported individually)
+- According to https://github.com/opencollective/opencollective/issues/6067, new components should be placed in a dedicated design system folder
+- When we feel inspired or when it adds value (e.g., our tooltip component is not working great), we can migrate, but there's no imperative to move things that are already working
+- Iterate ASAP on the Tailwind RFC to make sure new components will be implemented with the latest CSS tooling
