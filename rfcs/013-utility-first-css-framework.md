@@ -1,4 +1,5 @@
 # RFC 013 - Adopting a Utility-First CSS approach
+
 ---
 
 # Affected projects
@@ -14,7 +15,7 @@ Our current approach to CSS and styling using styled-components presents several
 
 - It usually requires less code to write the same thing with Tailwind. With styled-components, custom CSS is often required.
 - A lack of established standards (and those we have are difficult to use)
-  - We do have `styled-system` with our predefined config of spacing, colors, breakpoints, etc. Biggest drawback to me is the need to define and extend this ourselves. 
+  - We do have `styled-system` with our predefined config of spacing, colors, breakpoints, etc. Biggest drawback to me is the need to define and extend this ourselves.
   - We also have "utility components" (Flex/Grid/Box/P/H1/etc) - see example and more on these below
 - Naming things is hard - and `styled-components` require you to name (and break out from the jsx return statement) a lot of elements just to apply styling. See example below.
 - Currently lack an approach to utilize already styled components from external sources (except for Material UI - which has it's own drawbacks)
@@ -24,12 +25,14 @@ Our current approach to CSS and styling using styled-components presents several
 - Tailwind provides some [accessibility helpers](https://tailwindcss.com/docs/screen-readers) out of the box
 
 ## Code example/comparison
+
 ### Styled Components
+
 First, an example using just `styled-components` (without our utility components and styled-system), showing the need to break out any element from the component return statement just to apply styling.
 
 ```jsx
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React, { useState } from "react";
+import styled from "styled-components";
 
 const Container = styled.div`
   background: #f3f4f6;
@@ -64,7 +67,7 @@ const ItemList = styled.ul`
 `;
 const Item = styled.li`
   font-weight: 700;
-  color: ${props => (props.selected ? '#1d4ed8' : '#6b7280')};
+  color: ${(props) => (props.selected ? "#1d4ed8" : "#6b7280")};
 `;
 
 const ItemButton = styled.button`
@@ -79,9 +82,12 @@ export default function ListWidget({ items = [] }) {
         <ScrollingContainer>
           <Title>Items</Title>
           <ItemList>
-            {items.map(item => (
+            {items.map((item) => (
               <Item key={item.id}>
-                <ItemButton selected={selectedId === item.id} onClick={() => setSelectedId(item.id)}>
+                <ItemButton
+                  selected={selectedId === item.id}
+                  onClick={() => setSelectedId(item.id)}
+                >
                   {item.title}
                 </ItemButton>
               </Item>
@@ -96,20 +102,21 @@ export default function ListWidget({ items = [] }) {
 ```
 
 ### A little bit better adding our utility components and styled-system
-By importing our pre-defined utility components (Container/Grid/H3/Flex/etc) we reduce the amount of Styled components we need to define. But we still need to import them. 
 
-And the CSS they apply is unclear, both the components themselves, but also the variables you provide. 
+By importing our pre-defined utility components (Container/Grid/H3/Flex/etc) we reduce the amount of Styled components we need to define. But we still need to import them.
+
+And the CSS they apply is unclear, both the components themselves, but also the variables you provide.
 
 For exmaple, the container accepts `p` for padding which I can either set to a string `8px` or a number, in which case it refers to our own pre-defined spacing config, which is hiding the fact that it is non-linear fairly well, having to find the file where the spacing is defined to find that out.
 
 ```jsx
-import React from 'react';
-import styled from 'styled-components';
-import { themeGet } from 'styled-system';
+import React from "react";
+import styled from "styled-components";
+import { themeGet } from "styled-system";
 
-import Container from './Container';
-import { Grid } from './Grid';
-import { H3 } from './Text';
+import Container from "./Container";
+import { Grid } from "./Grid";
+import { H3 } from "./Text";
 
 const ItemList = styled.ul`
   > * + * {
@@ -118,7 +125,8 @@ const ItemList = styled.ul`
 `;
 const Item = styled.li`
   font-weight: 700;
-  color: ${props => (props.selected ? themeGet('blue.700') : themeGet('black.600'))};
+  color: ${(props) =>
+    props.selected ? themeGet("blue.700") : themeGet("black.600")};
 `;
 
 const ItemButton = styled.button`
@@ -135,9 +143,12 @@ export default function ListWidget({ items = [] }) {
             Items
           </H3>
           <ItemList>
-            {items.map(item => (
+            {items.map((item) => (
               <Item key={item.id}>
-                <ItemButton selected={selectedId === item.id} onClick={() => setSelectedId(item.id)}>
+                <ItemButton
+                  selected={selectedId === item.id}
+                  onClick={() => setSelectedId(item.id)}
+                >
                   {item.title}
                 </ItemButton>
               </Item>
@@ -154,13 +165,15 @@ export default function ListWidget({ items = [] }) {
 ```
 
 ### With TailwindCSS
-If we were to use instead TailwindCSS - we remove the need to break out of the component return statement to apply styles (while still having that option when needed for reusability), resulting in a shorter more condensed file. The 
-The design system is also working on any html element by default - not having to import any special utility components that accept the styled-system props. 
-Another benefit is easily seeing the styles they apply by hovering over the class name.
-```jsx
-import React from 'react';
 
-import { cn } from '../lib/style';
+If we were to use instead TailwindCSS - we remove the need to break out of the component return statement to apply styles (while still having that option when needed for reusability), resulting in a shorter more condensed file. The
+The design system is also working on any html element by default - not having to import any special utility components that accept the styled-system props.
+Another benefit is easily seeing the styles they apply by hovering over the class name.
+
+```jsx
+import React from "react";
+
+import { cn } from "../lib/style";
 
 export default function ListWidget({ items = [] }) {
   const [selectedId, setSelectedId] = React.useState(null);
@@ -170,9 +183,17 @@ export default function ListWidget({ items = [] }) {
         <div className="col-span-2 overflow-y-scroll">
           <h3 className="text-2xl font-medium">Items</h3>
           <ul className="space-y-2">
-            {items.map(item => (
-              <li key={item.id} className={cn('font-bold', selectedId === item.id ? 'text-blue-700' : 'text-gray-500')}>
-                <button onClick={() => setSelectedId(item.id)}>{item.title}</button>
+            {items.map((item) => (
+              <li
+                key={item.id}
+                className={cn(
+                  "font-bold",
+                  selectedId === item.id ? "text-blue-700" : "text-gray-500"
+                )}
+              >
+                <button onClick={() => setSelectedId(item.id)}>
+                  {item.title}
+                </button>
               </li>
             ))}
           </ul>
@@ -185,7 +206,7 @@ export default function ListWidget({ items = [] }) {
 
 ## Solution
 
-Adopting [TailwindCSS](https://tailwindcss.com/) - a utility-first css framework - as our main approach to styling, together with complementary libraries to handle accessibility, transitions and styling/variants composition, and a license to a component library (Tailwind UI) built with these tools.
+Adopting [TailwindCSS](https://tailwindcss.com/) - a utility-first css framework - as our main approach to styling.
 
 ### What is Utility-first CSS?
 
@@ -205,14 +226,10 @@ Extra reading/listening:
 - [TailwindCSS](https://tailwindcss.com/) - utilify-first CSS framework
 - [`class-variance-authority`](https://cva.style/docs) - library to help create CSS class compositions and variants of components (e.g button sizes, colors, intents)
 - See Modal.tsx in the POC below for an example
-- [Headless UI](https://headlessui.com/) - unstyled fully accessible (screen reader support, keyboard interactions etc) component primitives (Dropdowns, Modals, Switches, Comboboxes etc)
-- [Tailwind UI](https://tailwindui.com/)
+<!-- - [Tailwind UI](https://tailwindui.com/)
   - Component library built with TailwindCSS, Headless UI and Heroicons
   - Requires a license. I have an individual license, but a team license is a one-time fee of $500 (discounted from $799 from already owning a license) which includes up to 25 seats
-  - The major benefit of something like Tailwind UI is that these components are not imported as a npm library, but rather copy/pasted from examples - so that we are then free to evolve and modify the component as we see fit - seems to be ideal for both getting ready made components for basic things - as well as not being constrained in the design language
-- [Heroicons](https://heroicons.com/)
-  - Icon library from the Tailwind creators - looks good and used in Tailwind UI components
-  - styled-icons depend on styled-components, and if we're looking for a replacement I'd suggest a single icon library to better ensure consistent iconography. This is from the creators of TailwindCSS/Headless UI, and is used in Tailwind UI components as well.
+  - The major benefit of something like Tailwind UI is that these components are not imported as a npm library, but rather copy/pasted from examples - so that we are then free to evolve and modify the component as we see fit - seems to be ideal for both getting ready made components for basic things - as well as not being constrained in the design language -->
 
 ### Expected results
 
@@ -223,29 +240,12 @@ Extra reading/listening:
 - Increased efficiency of building and maintaining UI
   - Less naming things, less writing fully custom css, less importing of packages (styled-components, styled-system), less importing of abstracted "utility" components (<Grid />, <Flex/>)
   - Easier to maintain, read and understand existing UI code (with utility classes being present directly in the composition of html elements)
-  - Tailwind UI provides a great starting point for a lot of components - not having to reinvent the wheel for a lot of basic things
-- Increased developer happiness
-  - I've personally found working with Tailwind and it's ecosystem a lot easier and more fun than say styled-components
 - @opencollective/design and @opencollective/developers can focus less on making sure that basic components like Buttons, Dropdowns, Modals, Forms, etc, look good and function well - and focus more on domain-specific design challenges that are unique to Open Collective - and have access to more consistent primitives while doing so
-
-## Alternatives
-
-- Stick with Styled-Components
-- Adopt a component library like Material UI
 
 ## Proof of concept
 
-[PR with POC including all the tools listed above](https://github.com/opencollective/opencollective-frontend/pull/8827) and some additional changes:
-- Two new/updated components as examples:
-  - [InputSwitch.js](https://github.com/opencollective/opencollective-frontend/blob/ad360b3c1f3e83e618f29e9a5900967c90283087/components/InputSwitch.js)
-    - starting point from Tailwind UI
-    - removing Material UI as a result
-  - [Modal.tsx](https://github.com/opencollective/opencollective-frontend/blob/ad360b3c1f3e83e618f29e9a5900967c90283087/components/Modal.tsx)
-    - starting point from Tailwind UI
-      - accessible by default from using Headless UI (which also makes it use a portal by default so that it won't suffer any layout hierarchy problems)
-      - has nicer transitions than before through using `<Transition>` from Headless UI
-    - added `class-variance-authority`/CVA to handle setting different modal widths
-    - used in `ApplyToHostModal` and `NewsAndUpdatesModal`
+[PR that adds TailwindCSS and class-variance-authority](https://github.com/opencollective/opencollective-frontend/pull/8827) and some additional changes:
+
 - OC color palette added to tailwind config
   - With a workaround to set the `primary` palette colors dynamically (for the Collective Theme) using styeld jsx in `DefaultPaletteStyle.tsx` used in `_app.js` and `CollectiveThemeProvider.js`, so that it can be with Tailwind
 - Some global styling removed from `app.css`
@@ -261,12 +261,10 @@ Since there is a lot of components and UI built with styled-components, we'd hav
 ### Suggested steps
 
 - [ ] Merge POC
-- [ ] Buy a team license for Tailwind UI (one-time fee, discounted from $799 to $500, allowing up to 25 team members)
 - [ ] Host team workshop on Tailwind and the entire suite of tools
 - [ ] Quick wins
   - [ ] Switch out all "utility" styled components (<Grid />, <Box />, <Flex /> etc) with divs with utility classes
   - [ ] Continue removing all global styles in `app.css`
-  - [ ] Continue replacing all modals with new Modal.js
-  - [ ] Switch out all icons to use Heroicons
-- [ ] Build new components using Tailwind - and use Tailwind UI components as a starting point
+- [ ] Build new components using Tailwind -
+<!-- and use Tailwind UI components as a starting point -->
 - [ ] Track progress through counting styled-components import counts compared to before adopting RFC
