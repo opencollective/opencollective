@@ -1,4 +1,4 @@
-# RFC 013 - Adopting a Utility-First CSS approach
+# RFC 013 - Adopting a Utility-First CSS approach with TailwindCSS
 
 ---
 
@@ -225,7 +225,6 @@ Extra reading/listening:
 
 - [TailwindCSS](https://tailwindcss.com/) - utilify-first CSS framework
 - [`class-variance-authority`](https://cva.style/docs) - library to help create CSS class compositions and variants of components (e.g button sizes, colors, intents)
-- See Modal.tsx in the POC below for an example
 <!-- - [Tailwind UI](https://tailwindui.com/)
   - Component library built with TailwindCSS, Headless UI and Heroicons
   - Requires a license. I have an individual license, but a team license is a one-time fee of $500 (discounted from $799 from already owning a license) which includes up to 25 seats
@@ -244,15 +243,14 @@ Extra reading/listening:
 
 ## Proof of concept
 
-[PR that adds TailwindCSS and class-variance-authority](https://github.com/opencollective/opencollective-frontend/pull/8827) and some additional changes:
+[PR that adds TailwindCSS](https://github.com/opencollective/opencollective-frontend/pull/8827) and some additional changes including:
 
-- OC color palette added to tailwind config
+- OC primary color added to tailwind config
   - With a workaround to set the `primary` palette colors dynamically (for the Collective Theme) using styeld jsx in `DefaultPaletteStyle.tsx` used in `_app.js` and `CollectiveThemeProvider.js`, so that it can be with Tailwind
 - Some global styling removed from `app.css`
   - Removed the global font-size rules (was set to 62.5%, and 55% on smaller screens)
-    - Tailwind CSS expects this to be default
-    - Replaced all `rem` values with `px` values in the code. `1rem` => `10px` since 62.5% of `16px` is `10px`
-    - Adjustments made in some places - need to find all places that suddenly have too big font sizes now
+    - Tailwind CSS expects this to be default (16px)
+    - Replaced all `rem` values with a new value that is divided by 1.6 (and rounded to nearest 0.05 rem)
 
 ## Adoption / Transition strategy
 
@@ -260,11 +258,11 @@ Since there is a lot of components and UI built with styled-components, we'd hav
 
 ### Suggested steps
 
-- [ ] Merge POC
+- [ ] Merge RFC and Tailwind PR
 - [ ] Host team workshop on Tailwind and the entire suite of tools
 - [ ] Quick wins
   - [ ] Switch out all "utility" styled components (<Grid />, <Box />, <Flex /> etc) with divs with utility classes
   - [ ] Continue removing all global styles in `app.css`
-- [ ] Build new components using Tailwind -
+- [ ] Build new components using Tailwind
 <!-- and use Tailwind UI components as a starting point -->
 - [ ] Track progress through counting styled-components import counts compared to before adopting RFC
