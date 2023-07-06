@@ -204,6 +204,14 @@ export default function ListWidget({ items = [] }) {
 }
 ```
 
+## Performance
+
+Styled-components computes styles dynamically, in Javascript. There's an overhead on the time to first render (estimated to 5-10%) and re-renders (estimated to 10-20%). We can expect Tailwind to completely drop this overhead.
+
+Styled-components is also affected by an issue where, when dynamic props are used inside of styles (e.g. to set a background image that depends on an profile URL), it can end up generating many CSS classes - one each time a new value is found for a prop. This adds an extra scripting + CSS overhead (the infamous `Over 200 classes were generated for component` warning).
+
+For a complete analysis of performances and how we can expect Tailwind to impact the metrics, see [this appendix](./appendix/013/styled-components-performance.md).
+
 ## Solution
 
 Adopting [TailwindCSS](https://tailwindcss.com/) - a utility-first css framework - as our main approach to styling.
