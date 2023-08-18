@@ -233,10 +233,6 @@ Extra reading/listening:
 
 - [TailwindCSS](https://tailwindcss.com/) - utilify-first CSS framework
 - [`class-variance-authority`](https://cva.style/docs) - library to help create CSS class compositions and variants of components (e.g button sizes, colors, intents)
-<!-- - [Tailwind UI](https://tailwindui.com/)
-  - Component library built with TailwindCSS, Headless UI and Heroicons
-  - Requires a license. I have an individual license, but a team license is a one-time fee of $500 (discounted from $799 from already owning a license) which includes up to 25 seats
-  - The major benefit of something like Tailwind UI is that these components are not imported as a npm library, but rather copy/pasted from examples - so that we are then free to evolve and modify the component as we see fit - seems to be ideal for both getting ready made components for basic things - as well as not being constrained in the design language -->
 
 ### Expected results
 
@@ -262,7 +258,9 @@ Extra reading/listening:
 
 ## Adoption / Transition strategy
 
-Since there is a lot of components and UI built with styled-components, we'd have to accept that we would live with both libraries for a while. We could adopt Tailwind and the utilify-first suite as the new main approach to styling - while slowly building new components and replacing old stuff using the new suite - motivated by new and better looks, improved dx, and better accessibility for the end user.
+- Since there is a lot of components and UI built with styled-components, we have to accept that we would live with both libraries for a while.
+- We propose to adopt Tailwind and the utilify-first suite as the new main approach to styling - while slowly building new components and replacing old stuff using the new suite.
+- To allow for a smoother transition, new development using `styled-components` is accepted but discouraged.
 
 ### Suggested steps
 
@@ -272,5 +270,4 @@ Since there is a lot of components and UI built with styled-components, we'd hav
   - [ ] Switch out all "utility" styled components (<Grid />, <Box />, <Flex /> etc) with divs with utility classes
   - [ ] Continue removing all global styles in `app.css`
 - [ ] Build new components using Tailwind
-<!-- and use Tailwind UI components as a starting point -->
 - [ ] Track progress through counting styled-components import counts compared to before adopting RFC
