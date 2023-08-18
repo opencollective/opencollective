@@ -1,4 +1,4 @@
-# RFC 013 - Adopting a Utility-First CSS approach with TailwindCSS
+# RFC 015 - Adopting a Utility-First CSS approach with TailwindCSS
 
 ---
 
