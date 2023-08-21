@@ -22,14 +22,14 @@ The overarching goal is to harness the potential of pre-built components to simp
 
 There is a new type of component "library" that is gaining a lot of popularity, one where you don't import a library in your code, but rather copy-paste the component definitions over to your own code base so that you are free to customize and evolve them on your own, which means that you start owning the components and their look. The library serves as a starting point to build your own component library.
 
-Right now, the most popular of these is probably shadcn/ui, an open source set of components built with TailwindCSS and Radix UI.
+Right now, the most popular of these is probably [shadcn/ui](https://ui.shadcn.com/), an open source set of components built with TailwindCSS and Radix UI.
 
-Since we've recently adopted Radix UI and are in the process of discussing TailwindCSS, an initial proposed solution in this RFC is to pick shadcn/ui.
+Since we've recently adopted Radix UI and are in the process of discussing TailwindCSS, an initial proposed solution in this RFC is to pick [shadcn/ui](https://ui.shadcn.com/).
 
 ## Alternatives
 
 - Tailwind Catalyst
-  - Tailwind is working on their own version of this type of component library which is looking promising. However, it is not yet launched and unclear whether it will be free and open source or a paid product. It's also built with React Aria and not Radix UI.
+  - [Tailwind is working on their own version](https://youtu.be/CLkxRnRQtDE?t=3509) of this type of component library which is looking promising. However, it is not yet launched and unclear whether it will be free and open source or a paid product. It's also built with React Aria and not Radix UI.
 
 ## Proof of concept
 
