@@ -26,12 +26,12 @@ There is a new type of component "library" that is gaining a lot of popularity, 
 
 Right now, the most popular of these is probably [shadcn/ui](https://ui.shadcn.com/), an open source set of components built with TailwindCSS and Radix UI.
 
-Since we've recently adopted Radix UI and are in the process of discussing TailwindCSS, an initial proposed solution in this RFC is to pick [shadcn/ui](https://ui.shadcn.com/).
+Since we've recently adopted Radix UI and TailwindCSS, an initial proposed solution in this RFC is to pick [shadcn/ui](https://ui.shadcn.com/).
 
 ## Alternatives
 
-- Tailwind Catalyst
-  - [Tailwind is working on their own version](https://youtu.be/CLkxRnRQtDE?t=3509) of this type of component library which is looking promising. However, it is not yet launched and unclear whether it will be free and open source or a paid product. It's also built with React Aria and not Radix UI.
+- There are many types of styled component libraries, but within the space of TailwindCSS and this type of "copy-paste" library there are not many options yet
+- Notably [Tailwind is working on their own version](https://youtu.be/CLkxRnRQtDE?t=3509) of this type of component library which is looking promising. However, it is not yet launched and unclear whether it will be free and open source or a paid product. It's also built with React Aria and not Radix UI.
 
 ## Proof of concept
 
