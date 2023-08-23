@@ -41,7 +41,7 @@ Since we've recently adopted Radix UI and are in the process of discussing Tailw
 
 ### Level of customization
 
-Before we proceed, we should determine the extent of customization we wish to apply.
+We need to consider the extent of customization we wish to apply.
 
 #### High Customization
 
@@ -59,9 +59,22 @@ Before we proceed, we should determine the extent of customization we wish to ap
   - **Efficiency:** The adoption process is streamlined, reducing the time and effort required.
   - **Familiarity for Users:** Adhering closely to recognized standards means our app will feel intuitive and user-friendly.
 - **Cons**
-
   - **Lack of Distinction:** While our app might be easy to use, it might blend in with the multitude, potentially lacking a unique character or personality.
 
-- [ ] Decide on how to reach desired level of customization (little by little vs all at once?)
-- [ ] Adopt TailwindCSS and shadcn/ui
-- [ ] Add shadcn/ui components as they are needed in `components/ui` folder to distinguish them as the common design system building blocks
+#### Proposal
+
+Given the benefits highlighted in the Motivation section, the recommendation is to start with a low level of customization when adopting the new component library. The rationale behind this approach is as follows:
+
+1. **Immediate Efficiency Gains:** By starting with a low level of customization, we can immediately leverage the pre-crafted components of [shadcn/ui](https://ui.shadcn.com/). This allows for quicker turnarounds on projects and frees up engineering resources. Over-customizing from the outset can negate this benefit, as substantial time and effort might be spent on tailoring the components rather than on the core functionalities of our projects.
+
+2. **Maintain Consistency:** One of the primary reasons for adopting a component library is to ensure consistency across applications. Starting with a low level of customization ensures that we adhere to a standardized look and feel, thereby reinforcing our brand image.
+
+3. **Gradual Evolution:** Beginning with a foundational layer of pre-built components provides a stable platform upon which customizations can be incrementally introduced. This means that as we get a better grasp of our specific needs and user feedback, we can tailor the components without undergoing a massive overhaul.
+
+4. **Reduced Risk:** Initiating with minimal customization allows us to assess the compatibility and flexibility of the component library with our existing systems. If any issues arise, it becomes easier to backtrack or pivot without having invested too much time into extensive customizations.
+
+5. **Focus on Learning and Integration:** By not diving deep into customization from the get-go, the team can focus on familiarizing themselves with the new library, its nuances, and best practices. This ensures smoother integration with our projects and sets the stage for more sophisticated customizations in the future if needed.
+
+6. **Retaining Familiarity:** As mentioned in the Motivation section, utilizing popular component designs provides users with an intuitive experience. By sticking close to the original designs initially, we can provide an interface that many users might already be familiar with.
+
+In conclusion, while customization is undoubtedly a powerful tool, in the initial stages of adoption, the focus should be on integration, learning, and leveraging the efficiency gains of the component library. As our familiarity with the library grows and as we gather more user feedback, we can then introduce customizations in a more informed and strategic manner.
