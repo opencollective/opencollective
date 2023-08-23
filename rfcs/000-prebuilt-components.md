@@ -15,6 +15,8 @@ By furnishing our engineers with pre-crafted components, we can achieve multiple
 1. **Efficiency:** The development lifecycle can be substantially shortened, enabling quicker turnarounds. Instead of allocating time to create components from scratch, engineers can divert their focus to other critical aspects of development.
 2. **Consistency:** Ready-made components ensure a unified look and feel across our applications, promoting a consistent brand image.
 3. **Adaptability:** With the groundwork laid by these components, modifications can be introduced with relative ease, ensuring our applications remain adaptive to changing needs.
+4. **Familiarisation:** Utilising a popular component design will create a familiar feel for users, making interfaces more intuitive. Engineers can utilise this too, as they will share those expectations and be able to prototype designs that are consistent with our design.
+5. **Standardisation:** Using a popular component design will help us expand the engineering and designs teams with lower onboarding costs as these libraries become more pervasive and have their own community and documentation etc.
 
 The overarching goal is to harness the potential of pre-built components to simplify our workflow, enhance productivity, and deliver great user experiences.
 
