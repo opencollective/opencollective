@@ -267,7 +267,7 @@ Extra reading/listening:
 - [ ] Merge RFC and Tailwind PR
 - [ ] Host team workshop on Tailwind and the entire suite of tools
 - [ ] Quick wins
-  - [ ] Switch out all "utility" styled components (<Grid />, <Box />, <Flex /> etc) with divs with utility classes
+  - [ ] Switch out all "utility" styled components (`<Grid />`, `<Box />`, `<Flex />` etc) with divs with utility classes
   - [ ] Continue removing all global styles in `app.css`
 - [ ] Build new components using Tailwind
 - [ ] Track progress through counting styled-components import counts compared to before adopting RFC
