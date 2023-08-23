@@ -247,7 +247,7 @@ Extra reading/listening:
 
 ## Proof of concept
 
-[PR that adds TailwindCSS](https://github.com/opencollective/opencollective-frontend/pull/8827) and some additional changes including:
+[PR that adds TailwindCSS](https://github.com/opencollective/opencollective-frontend/pull/9092) and some additional changes including:
 
 - OC primary color added to tailwind config
   - With a workaround to set the `primary` palette colors dynamically (for the Collective Theme) using styeld jsx in `DefaultPaletteStyle.tsx` used in `_app.js` and `CollectiveThemeProvider.js`, so that it can be with Tailwind
