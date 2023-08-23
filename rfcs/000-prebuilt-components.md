@@ -1,4 +1,4 @@
-# Adopt a set of pre-built components
+# Adopt a set of pre-built components through `shadcn/ui`
 
 ## Affected projects
 
