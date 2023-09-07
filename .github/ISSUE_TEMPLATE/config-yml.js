@@ -28,22 +28,25 @@ level auth example.
  - The service access token is sent in the Authorization header for plugin requests.
 - Once you add your service access token into the ChatGPT UI, you will be presented with a verification token.
  - Add the verification token to your ai-plugin.json file under the auth section as shown below.
+```
 "auth": {
   "type": "service_http",
   "authorization_type": "bearer",
   "verification_tokens": {
     "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI"
   }
-},
+}
+```
 The verification tokens are designed to support multiple applications. You can simply add the additional applications you want your plugin to support:
-
+```
 "verification_tokens": {
     "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI",
     "other_service": ""
   }
-OAuth
-The plugin protocol is compatible with OAuth. A simple example of the OAuth flow we are expecting should look something like the following:
 ```
+###OAuth
+The plugin protocol is compatible with OAuth. A simple example of the OAuth flow we are expecting should look something like the following:
+
 To start, select "Develop your own plugin" in the ChatGPT plugin store, and enter the domain where your plugin is hosted (cannot be localhost).
 In ai-plugin.json, set auth.type to "oauth" as is shown in our OAuth example.
 Then, you will be prompted to enter the OAuth client ID and client secret.
@@ -58,7 +61,7 @@ During the user sign in process, ChatGPT makes a request to your authorization_u
 Each time a user makes a request to the plugin, the user’s token will be passed in the Authorization header: (“Authorization”: “[Bearer/Basic][user’s token]”).
 We require that OAuth applications make use of the state parameter for security reasons.
 Below is an example of what the OAuth configuration inside of the ai-plugin.json file might look like:
-
+```
 "auth": {
   "type": "oauth",
   "client_url": "https://example.com/authorize",
@@ -68,7 +71,8 @@ Below is an example of what the OAuth configuration inside of the ai-plugin.json
   "verification_tokens": {
     "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI"
   }
-},
+}
+```
 To better understand the URL structure for OAuth, here is a short description of the fields:
 
 When you set up your plugin with ChatGPT, you will be asked to provide your OAuth client_id and client_secret.
@@ -78,17 +82,19 @@ After your plugin redirects back to the given redirect_uri, ChatGPT will complet
 No authentication
 We do not recommend the use of "no authentication", consider using "service authentication".
 We support no-auth flow for applications that do not require authentication, where a user is able to send requests directly to your API without any restrictions. This is particularly useful if you have an open API that you want to make available to everyone, as it allows traffic from sources other than just OpenAI plugin requests.
-
+```
 "auth": {
   "type": "none"
 },
-User level
+```
+#User level
 Due to current UI limitations, we are not allowing plugins with "user authentication" into the plugin store. We expect this may change in the future.
 Just like how a user might already be using your API, we allow user level authentication through enabling end users to copy and paste their secret API key into the ChatGPT UI during plugin install. While we encrypt the secret key when we store it in our database, we do not recommend this approach given the poor user experience.
 
 To start, a user pastes in their access token when installing the plugin
 We store an encrypted version of the token
 We then pass it in the Authorization header when making requests to the plugin (“Authorization”: “[Bearer/Basic][user’s token]”)
+```
 "auth": {
   "type": "user_http",
   "authorization_type": "bearer",
@@ -104,3 +110,4 @@ contact_links:
   - name: Security Policy
     url: https://github.com/opencollective/opencollective/security/policy
     about: Please report security vulnerabilities as outlined here"`
+     ```
