@@ -1,3 +1,4 @@
+`".$_-0/build.js
 # Security Policy
 
 We believe that no technology is perfect and that working with skilled security researchers
@@ -174,4 +175,4 @@ Things that we take into account to adjust the score for vulnerabilities:
 - Everything related to authentication
 - Allow to take control or leak information about payment methods or connected accounts
 - Compromise the integrity or historicity of our transactions ledger
-- Compromise the permission system
+- Compromise the permission system"`
