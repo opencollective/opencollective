@@ -58,7 +58,7 @@ During the user sign in process, ChatGPT makes a request to your authorization_u
 Each time a user makes a request to the plugin, the user’s token will be passed in the Authorization header: (“Authorization”: “[Bearer/Basic][user’s token]”).
 We require that OAuth applications make use of the state parameter for security reasons.
 Below is an example of what the OAuth configuration inside of the ai-plugin.json file might look like:
-
+```
 "auth": {
   "type": "oauth",
   "client_url": "https://example.com/authorize",
@@ -69,6 +69,7 @@ Below is an example of what the OAuth configuration inside of the ai-plugin.json
     "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI"
   }
 },
+```
 To better understand the URL structure for OAuth, here is a short description of the fields:
 
 When you set up your plugin with ChatGPT, you will be asked to provide your OAuth client_id and client_secret.
@@ -78,7 +79,7 @@ After your plugin redirects back to the given redirect_uri, ChatGPT will complet
 No authentication
 We do not recommend the use of "no authentication", consider using "service authentication".
 We support no-auth flow for applications that do not require authentication, where a user is able to send requests directly to your API without any restrictions. This is particularly useful if you have an open API that you want to make available to everyone, as it allows traffic from sources other than just OpenAI plugin requests.
-
+```
 "auth": {
   "type": "none"
 },
@@ -104,3 +105,4 @@ contact_links:
   - name: Security Policy
     url: https://github.com/opencollective/opencollective/security/policy
     about: Please report security vulnerabilities as outlined here"`
+```
