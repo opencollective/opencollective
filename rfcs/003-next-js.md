@@ -10,7 +10,7 @@ We're using Next.js as the base framework for our frontend app for the following
 
 Following guidance of our RFC 001, we should always use the latest version of Next.js. 
 
-To keep our dependency tree consistent, we should align key dependencies with the one provided by Next.js: babel, webpack, styled-jsx.
+To keep our dependency tree consistent, we should align key dependencies with the one provided by Next.js: babel, webpack
 
 Because Next.js only expose React as a peer dependency, we don't have to match a specific version and can use the latest stable version of React that is compatible with Next.js.
 
@@ -18,5 +18,8 @@ Because Next.js only expose React as a peer dependency, we don't have to match a
 
   - Always use the latest stable version of Next.js.
   - Use the Babel and Webpack versions that are used in that version of Next.js
-  - Use the styled-jsx version that is used in that version of Next.js
   - Always use the latest stable version of React and React-Dom that are compatible with that version of Next.js.
+
+## Updates
+
+ - 2023-06-05: remove mention to styled-jsx

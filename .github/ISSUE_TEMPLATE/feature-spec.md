@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-<!-- Thanks for opening an issue, if you're here to describe a problem you're having with Open Collective you might consider opening a bug if something isn't working properly, or share an idea, irritation or need if you don't have a proposed solution. 
+<!-- Thanks for opening an issue, if you're here to describe a problem you're having with Open Collective you might consider opening a bug if something isn't working properly, or share an idea, irritation or need if you don't have a proposed solution. -->
 
 ## User story 
 _As <persona>, I can <what?> so that <why?>_

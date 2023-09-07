@@ -162,9 +162,9 @@ We have a policy of limiting access to our Platform and terminating the accounts
 
 Designated Agent: DMCA Requests
 
-Address: OpenCollective, Inc., 340 S LEMON AVE #3717
+Address: OpenCollective, Inc., 440 N. Barranca Avenue #3717
 
-Walnut CA 91789
+Covina, CA 91723
 
 Telephone Number: +1 (802) 489-6736
 

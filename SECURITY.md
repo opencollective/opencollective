@@ -99,11 +99,13 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 
 | Project       | Type            | Security requirement | Low  | Medium | High  | Critical |
 | ------------- | --------------- | -------------------- | ---- | ------ | ----- | -------- |
-| API           | API             | +++                  | \$100 | \$200  | \$300 | \$600    |
-| Frontend      | Web Application | +++                  | \$100 | \$200  | \$300 | \$600    |
-| PDF service   | API             | ++                   | \$50 | \$100   | \$200 | \$300    |
-| Images        | API             | ++                   | \$50 | \$100   | \$200 | \$300    |
-| REST          | API             | ++                   | \$50 | \$100   | \$200  | \$300    |
+| API           | API             | +++                  | \$120 | \$300  | \$600 | \$1200    |
+| Frontend      | Web Application | +++                  | \$120 | \$300  | \$600 | \$1200    |
+| PDF service   | API             | ++                   | \$60 | \$150   | \$300 | \$600    |
+| Images        | API             | ++                   | \$60 | \$150   | \$300 | \$600    |
+| REST          | API             | ++                   | \$60 | \$150   | \$300  | \$600    |
+
+Note: we are not able to pay bounties to people based in countries sanctioned by the United States, or countries where US sanctions are so widespread that our payment processors no longer serve them.
 
 ## Qualifying vulnerabilities
 
@@ -166,13 +168,6 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 ## How do we calculate the severity score
 
 Our analysis is always based on worst case exploitation of the vulnerability, as is the reward we pay. We will rely on CVSS3 as well as internal criteria to score the vulnerabilities.
-
-CVSS3 score:
-
-- From 1 to 4 ==> Low
-- From 4 to 7 ==> Medium
-- From 7 to 9 ==> High
-- From 9 to 10 ==> Critical
 
 Things that we take into account to adjust the score for vulnerabilities:
 

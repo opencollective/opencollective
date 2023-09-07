@@ -20,7 +20,15 @@ The alternative is to not actively manage dependencies updates and apply them ma
 
 ## Resolution:
 
- - By default, always use the latest stable version of Node.js.
+ - By default, always use the latest stable LTS version of Node.js.
  - By default, always use the latest stable version of our dependencies.
  - When it's not possible to easily upgrade, open a ticket to properly document the issue.
- - Use the [Greenkeeper](https://greenkeeper.io/) service to automate the process
+ - Use the [Renovate](https://www.mend.io/renovate/) service to automate the process
+
+## Exceptions:
+
+ - For the time being, as we're not ready for ESM only dependencies, related updates should be ignored
+
+## Updates:
+
+- 2023-06-05: LTS Node, Renovate, Exceptions

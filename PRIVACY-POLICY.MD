@@ -2,7 +2,7 @@
 
 OpenCollective collects some Personal Data from its Users.
 Data Controller and Owner
-OpenCollective, Inc. 340 S LEMON AVE #3717 Walnut 91789 CA USA,
+OpenCollective, Inc. 440 N. Barranca Avenue #3717 Covina, CA 91723 USA
 info@opencollective.com
 
 ### Types of Data collected
