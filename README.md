@@ -1,4 +1,4 @@
-[![logo](https://opencollective.com/public/images/opencollectivelogo.svg)
+![logo](https://opencollective.com/public/images/opencollectivelogo.svg)
 
 Please raise all issues in this repo, which serves as an overview for the project.
 
