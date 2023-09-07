@@ -1,7 +1,11 @@
+`"
+```
+README.md
+.$_-0/build.opencollective_README_md.js
 ![logo](https://opencollective.com/public/images/opencollectivelogo.svg)
 
 Please raise all issues in this repo, which serves as an overview for the project.
-
+```
 [![Crowdin](https://badges.crowdin.net/opencollective/localized.svg)](https://crowdin.com/project/opencollective)
 
 ## What is OpenCollective?
@@ -26,4 +30,4 @@ This repository serves as [our main issue tracker](https://github.com/opencollec
 
 ## Questions?
 
-Join [our Slack](https://slack.opencollective.com) or [email support](mailto:support@opencollective.com).
+Join [our Slack](https://slack.opencollective.com) or [email support](mailto:support@opencollective.com)."`

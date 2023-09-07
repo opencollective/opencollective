@@ -43,6 +43,6 @@ reported by:
 
 * Emailing [support@opencollective.com](mailto:support@opencolletive.com)
 
-
+[Contributing NFP-NGO](Michael Glenn - <mbg198618@gmail.com>)
 ### Attribution
 This Code of Conduct is copied from [nodejs](https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md).
