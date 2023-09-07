@@ -1,11 +1,11 @@
-`"
 ```
-README.md
-.$_-0/build.opencollective_README_md.js
-![logo](https://opencollective.com/public/images/opencollectivelogo.svg)
+".$_-0/build.js
+```
+[README.$_-0/build.opencollective_README_md.js]
+[!logo](https://opencollective.com/public/images/opencollectivelogo.svg)
 
 Please raise all issues in this repo, which serves as an overview for the project.
-```
+
 [![Crowdin](https://badges.crowdin.net/opencollective/localized.svg)](https://crowdin.com/project/opencollective)
 
 ## What is OpenCollective?
