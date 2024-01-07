@@ -15,6 +15,7 @@ The expected benefits:
 - Improved deployment options: it works with Vercel, Heroku, and probably any hosting service out of the box.
 - Improved PDF-related logic handling (e.g., page addition when content grows).
 - Improved style consistency: custom fonts work, and what you see while developing is what you get in production. No more surprises with the HTML version looking different from the PDF version.
+- Simplified setup: cutting our reliance on HTML/CSS technologies, we could end up moving to simpler/faster web server frameworks like [Nitro](https://nitro.unjs.io/) or [Fastify](https://www.fastify.io/).
 
 ## Drawbacks
 
