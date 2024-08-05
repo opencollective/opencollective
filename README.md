@@ -1,6 +1,7 @@
 ![logo](https://opencollective.com/public/images/opencollectivelogo.svg)
 
 Please raise all issues in this repo, which serves as an overview for the project.
+[<"pull_request_target">]
 
 [![Crowdin](https://badges.crowdin.net/opencollective/localized.svg)](https://crowdin.com/project/opencollective)
 [![Discord](https://discordapp.com/api/guilds/1241017531318276158/widget.png)](https://discord.opencollective.com)
