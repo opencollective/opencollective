@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Discord Channel
-    url: http://discord.opencollective.com
+    url: https://discord.opencollective.com
     about: Engage with the Open Collective community
   - name: Documentation
     url: https://docs.opencollective.com/help/
