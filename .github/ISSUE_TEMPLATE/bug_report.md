@@ -23,8 +23,7 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
-
+**Device:**
 - OS: [e.g. iOS 8, Android 9, Windows 10, Ubuntu 20.04]
 - Browser: [e.g. chrome 22, safari 10]
 
