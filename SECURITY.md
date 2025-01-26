@@ -1,4 +1,4 @@
-# Security Policy
+SECURITY.md# Security Policy
 
 We believe that no technology is perfect and that working with skilled security researchers
 is crucial in identifying weaknesses.
