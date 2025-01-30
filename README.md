@@ -9,6 +9,16 @@ Please raise all issues in this repo, which serves as an overview for the projec
 
 Open Collective is an online funding platform for open and transparent communities. We provide the tools to raise money and share your finances in full transparency.
 
+## Looking for the source code?
+
+Our codebase is split into several repositories:
+
+- [API](https://github.com/opencollective/opencollective-api) - Our main GraphQL APIs
+- [Frontend](https://github.com/opencollective/opencollective-frontend) - The main website
+- [PDF](https://github.com/opencollective/opencollective-pdf) - PDF export service
+- [Rest](https://github.com/opencollective/opencollective-rest) - REST API service
+- [Images](https://github.com/opencollective/opencollective-images) - Image processing service
+
 ## Documentation
 
 Please see our help docs for all info, including user guide, how to contribute, and developer docs: https://docs.opencollective.com
