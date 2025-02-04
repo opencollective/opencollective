@@ -15,8 +15,6 @@ In the initial fix, we addressed the "NEW" orders without noticing that these ha
 - Transactions were also duplicated, which impacted the balances and transactions history.
 - This did **not** actually charge users.
 
-TODO: Add metrics (nb emails)
-
 ## Timeline
 
 - 25/09/2024 13:05 UTC: We deployed the CRON job
@@ -26,6 +24,7 @@ TODO: Add metrics (nb emails)
 - 27/09/2024 05:58 UTC: We pointed the stripe job as a potential root cause
 - 27/09/2024 06:20 UTC: We disabled the CRON job responsible for the issue in production
 - 27/09/2024: We produced a fix + migration and sent emails to affected users to explain the issue
+- 10/10/2024: We noticed a few transactions that were not migrated in the initial fix, and deployed a final update
 
 ## What went well?
 
@@ -40,6 +39,7 @@ TODO: Add metrics (nb emails)
 - The impact would have been more limited if we hadn't notified users. Either by being aware of it, or having some checks. Maybe for scripts, email sending should be explicit?
 - Sending "sorry" emails via GMail was a mess (500 limit/day + SPF issues)
 - Mailchimp, though helpful, is not really designed for one-off notification emails like that.
+- We should have also contacted affected collectives to inform them about the issue and explain why they may have seen their balances fluctuate. 
 
 ## Follow up actions
 
