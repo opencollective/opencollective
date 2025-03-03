@@ -28,15 +28,6 @@ _Note: Project owner responsibilities include coordinating all the different peo
 
 <!-- What are the desired outcomes of this project? -->
 
-## Tasks
-
-```[tasklist]
-### Tasks
-- [ ] Task 1
-- [ ] Task 2
-- [ ] Task 3
-```
-
 ## Context & related issues
 
 <!-- Add any context or related issues here -->
