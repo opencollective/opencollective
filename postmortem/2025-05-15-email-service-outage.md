@@ -6,7 +6,7 @@ On 2025-05-15, Open Collective experienced an email service interruption when ou
 
 ## Impact
 
-- Users were unable to receive transactional emails from opencollective.com. As email confirmation is required for account creation, new users were unable to complete signup at https://opencollective.com/create-account. Guest contributions remained functional as they don't require email verification. Already authenticated users or accounts with a password setup were able to use the platform normally, apart from receiving email notifications.
+- Users were unable to receive transactional emails from opencollective.com. As email confirmation is required for account creation, new users were unable to complete signup at https://opencollective.com/create-account or to sign in without a password (magic link), seeing an error whenever they tried one or the other. Guest contributions remained functional as they don't require email verification. Already authenticated users or accounts with a password setup were able to use the platform normally, apart from receiving email notifications.
 - Our support contact form, which relies on Mailgun as well, was also partially down during this time.
 
 The issue affected all emails sent through our primary domain for approximately 14 hours.
@@ -42,3 +42,4 @@ The issue affected all emails sent through our primary domain for approximately 
 - Implement Amazon SES as a secondary provider to both explore cost reduction and improve email sending resilience.
 - Implement proactive actions for unusual signup patterns (e.g. alerting, blocking IPs, etc.).
 - Enforce CAPTCHA and rate limits more strictly on forms that trigger email sending to outside users.
+- Improve the error messaging on singup/login forms when we fail so send emails: make it less technical/verbose, and do not surface the original error message from the email provider.
