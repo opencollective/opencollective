@@ -21,7 +21,7 @@ Our codebase is split into several repositories:
 
 ## Documentation
 
-Please see our help docs for all info, including user guide, how to contribute, and developer docs: https://docs.opencollective.com
+Please see our help docs for all info, including user guide, how to contribute, and developer docs: https://documentation.opencollective.com
 
 ## Bounties
 
