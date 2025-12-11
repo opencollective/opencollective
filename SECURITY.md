@@ -8,22 +8,23 @@ to resolve the issue promptly and ensure you are fairly rewarded for your discov
 
 We will investigate legitimate reports and make every effort to quickly resolve any vulnerability.
 To encourage responsible reporting, we will not take legal action against you nor ask law enforcement
-to investigate you providing you comply with the current policy and more generally with the following guideline: Make a good faith effort to
+to investigate you, provided you comply with the current policy and, more generally, with the following guideline: Make a good faith effort to
 avoid privacy violations, destruction of data, and interruption or degradation of our services.
 
 ## Eligibility and Responsible Disclosure
 
-Only those that meet the following eligibility requirements may receive a monetary reward:
+Only those who meet the following eligibility requirements may receive a monetary reward:
 
 - You must be the first reporter of a vulnerability.
 - The vulnerability must be a qualifying vulnerability.
 - Any vulnerability found must be reported no later than 72 hours after discovery.
-- You must send a clear textual description of the report along with steps to reproduce the issue, include attachments such as screenshots or proof of concept code as necessary.
+- You must send a clear textual description of the report along with steps to reproduce the issue, including attachments such as screenshots or proof of concept code as necessary.
 - You must avoid tests that could cause degradation or interruption of our service (refrain from using automated tools, and limit yourself about requests per second).
 - You must not leak, manipulate, or destroy any user data.
-- You must not be a former or current employee of Open Collective or one of its contractor.
+- You must not be a former or current employee of Open Collective or one of its contractors.
 - You must wait for the issue to be fully fixed before exposing it publicly.
 - There must be proof that, given realistic processing power and time, an exploit is possible.
+- When using AI, you must manually review that the report you're submitting is correct. Repeated offense of this rule will lock you out of our bounty program.
 
 ## Scope
 
@@ -50,6 +51,11 @@ In case you really need to test on a live environment, we provide staging server
 - Mail: security@opencollective.com
 - Preferred languages: English
 - If your issue is critical, you can use the PGP key below to encrypt your message
+- Do to the rise of SPAM AI-generated reports, you MUST include the following sentence in your message:
+
+> I have read and accepted the Security Policy of Open Collective.
+
+Non-compliant reports will be ignored.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
