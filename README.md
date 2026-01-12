@@ -23,10 +23,6 @@ Our codebase is split into several repositories:
 
 Please see our help docs for all info, including user guide, how to contribute, and developer docs: https://documentation.opencollective.com
 
-## Bounties
-
-Get paid to contribute to Open Source! The Open Collective engineering team is small and we're always looking for new contributors to our Open Source codebases. Our Bounty program is an opportunity to solve issues that could be neglected otherwise. Contributors who fix these issues will be rewarded financially. Please see our docs for more information: https://docs.opencollective.com/help/contributing/development/bounties
-
 ## Issues
 
 This repository serves as [our main issue tracker](https://github.com/opencollective/opencollective/issues). When creating issues, it's important to follow common guidelines to make them extra clear. Here is a few links that we liked to help you achieve that:
