@@ -10,23 +10,13 @@ assignees: ""
 
 <!-- (What is the need, problem or challenge we are tackling? -->
 
-## Ownership
-
-<!-- Add yourself as owner here, discuss ownership with another if needed -->
-
-**Owner:**
-
-<!-- Add the following roles as they develop, again discuss ownership before @mentioning -->
-<!-- **Product:** -->
-<!-- **Design:** -->
-<!-- **Engineering:**  -->
-<!-- **Documentation:**  -->
-
-_Note: Project owner responsibilities include coordinating all the different people that need to contribute to the project, defining specs and goals, communicating project progress, being the point person for decisions, QA, documentation, and a plan for ongoing maintenance. If the project owner can't continue, they need to hand the role over to another person explicitly._
-
 ## Desired Outcomes
 
 <!-- What are the desired outcomes of this project? -->
+
+## Boundaries
+
+<!-- What we're intentionally not doing -->
 
 ## Context & related issues
 
