@@ -103,13 +103,13 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 
 ## Rewards
 
-| Project       | Type            | Security requirement | Low  | Medium | High  | Critical |
-| ------------- | --------------- | -------------------- | ---- | ------ | ----- | -------- |
-| API           | API             | +++                  | \$120 | \$300  | \$600 | \$1200    |
-| Frontend      | Web Application | +++                  | \$120 | \$300  | \$600 | \$1200    |
-| PDF service   | API             | ++                   | \$60 | \$150   | \$300 | \$600    |
-| Images        | API             | ++                   | \$60 | \$150   | \$300 | \$600    |
-| REST          | API             | ++                   | \$60 | \$150   | \$300  | \$600    |
+| Project     | Type            | Security requirement | Low   | Medium | High  | Critical |
+| ----------- | --------------- | -------------------- | ----- | ------ | ----- | -------- |
+| API         | API             | +++                  | \$120 | \$300  | \$600 | \$1200   |
+| Frontend    | Web Application | +++                  | \$120 | \$300  | \$600 | \$1200   |
+| PDF service | API             | ++                   | \$60  | \$150  | \$300 | \$600    |
+| Images      | API             | ++                   | \$60  | \$150  | \$300 | \$600    |
+| REST        | API             | ++                   | \$60  | \$150  | \$300 | \$600    |
 
 Note: we are not able to pay bounties to people based in countries sanctioned by the United States, or countries where US sanctions are so widespread that our payment processors no longer serve them.
 
@@ -158,6 +158,7 @@ Note: we are not able to pay bounties to people based in countries sanctioned by
 - Invalid or missing SPF (Sender Policy Framework) records (Incomplete or missing SPF/DKIM/DMARC)
 - Any issues regarding single session features/management
 - RTLO and related issues
+- Missing OAuth or personal token scope checks on **GraphQL V1** (`/graphql/v1`): token-based clients are not allowed to use it by default.
 
 ## Process
 
