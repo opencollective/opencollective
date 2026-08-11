@@ -1,0 +1,32 @@
+diff --git a/components/navigation/ProfileMenu.tsx b/components/navigation/ProfileMenu.tsx
+index ccf4000..24b1e4e 100644
+--- a/components/navigation/ProfileMenu.tsx
++++ b/components/navigation/ProfileMenu.tsx
+@@ -180,7 +180,10 @@ const ProfileMenu = ({ logoutParameters }: { logoutParameters?: Parameters<UserC
+             {hasAvailablePreviewFeatures && (
+               <MenuItem
+                 Icon={FlaskConical}
+-                onClick={() => setShowPreviewFeaturesModal(true)}
++                onClick={() => {
++                  setMenuOpen(false);
++                  setShowPreviewFeaturesModal(true);
++                }}
+                 appending={
+                   <Badge type="info" round size="sm">
+                     <FormattedMessage defaultMessage="New!" id="RlOKwP" />
+@@ -243,7 +246,6 @@ const ProfileMenu = ({ logoutParameters }: { logoutParameters?: Parameters<UserC
+           </div>
+         </div>
+       </div>
+-      <PreviewFeaturesModal open={showPreviewFeaturesModal} setOpen={setShowPreviewFeaturesModal} />
+     </React.Fragment>
+   );
+   return (
+@@ -268,6 +270,7 @@ const ProfileMenu = ({ logoutParameters }: { logoutParameters?: Parameters<UserC
+           {content}
+         </DrawerMenu>
+       )}
++      <PreviewFeaturesModal open={showPreviewFeaturesModal} setOpen={setShowPreviewFeaturesModal} />
+     </React.Fragment>
+   );
+ };

@@ -1,0 +1,140 @@
+From 12f23119861cd8b66078c5f402a9f5c8c1da12e2 Mon Sep 17 00:00:00 2001
+From: Nj <njstyle17@gmail.com>
+Date: Tue, 11 Aug 2026 21:02:14 +0530
+Subject: [PATCH] fix(ProfileMenu): close the menu when opening the Preview
+ Features modal
+
+The Preview Features modal was rendered inside the popover/drawer content,
+so the menu could not be closed without unmounting the modal with it. Move
+the modal next to the menu and close the menu when the item is clicked, for
+consistency with the other entries of the profile menu.
+---
+ components/navigation/ProfileMenu.test.tsx | 83 ++++++++++++++++++++++
+ components/navigation/ProfileMenu.tsx      |  7 +-
+ 2 files changed, 88 insertions(+), 2 deletions(-)
+ create mode 100644 components/navigation/ProfileMenu.test.tsx
+
+diff --git a/components/navigation/ProfileMenu.test.tsx b/components/navigation/ProfileMenu.test.tsx
+new file mode 100644
+index 0000000..93a97b8
+--- /dev/null
++++ b/components/navigation/ProfileMenu.test.tsx
+@@ -0,0 +1,83 @@
++import '@testing-library/jest-dom';
++
++import React from 'react';
++import { ApolloClient, ApolloLink, InMemoryCache, Observable } from '@apollo/client';
++import { render, screen, waitFor } from '@testing-library/react';
++import userEvent from '@testing-library/user-event';
++
++import { withRequiredProviders } from '../../test/providers';
++
++import ProfileMenu from './ProfileMenu';
++
++const mockLoggedInUser = {
++  email: 'test-user@opencollective.com',
++  collective: { id: 1, slug: 'test-user', name: 'Test User', type: 'USER' },
++  hasPublicProfile: () => true,
++  getAvailablePreviewFeatures: () => [{ key: 'test-feature' }],
++};
++
++jest.mock('next/router', () => {
++  const events = { on: jest.fn(), off: jest.fn(), emit: jest.fn() };
++  const router = { events, push: jest.fn(), replace: jest.fn(), prefetch: jest.fn(), query: {}, asPath: '/' };
++  return {
++    __esModule: true,
++    default: router,
++    useRouter: () => router,
++    withRouter: Component => props => <Component {...props} router={router} />,
++  };
++});
++
++jest.mock('../../lib/hooks/useLoggedInUser', () => ({
++  __esModule: true,
++  default: () => ({ LoggedInUser: mockLoggedInUser, logout: jest.fn() }),
++}));
++
++jest.mock('../../lib/hooks/useWhitelabel', () => ({
++  __esModule: true,
++  default: () => null,
++}));
++
++jest.mock('../../lib/hooks/useWindowResize', () => ({
++  __esModule: true,
++  VIEWPORTS: { XSMALL: 'XSMALL' },
++  useWindowResize: () => ({ viewport: 'LARGE' }),
++}));
++
++jest.mock('./ProfileMenuMemberships', () => ({
++  __esModule: true,
++  default: () => <div />,
++}));
++
++jest.mock('../PreviewFeaturesModal', () => ({
++  __esModule: true,
++  default: ({ open }: { open: boolean }) => (open ? <div>Preview features modal</div> : null),
++}));
++
++// Stub the `MemberInvitationsCount` query so the test doesn't hit the network
++const apolloClient = new ApolloClient({
++  cache: new InMemoryCache(),
++  link: new ApolloLink(
++    () =>
++      new Observable(observer => {
++        observer.next({ data: { memberInvitations: [] } });
++        observer.complete();
++      }),
++  ),
++});
++
++const getMenu = () => document.querySelector('[data-cy="user-menu"]');
++
++describe('ProfileMenu', () => {
++  it('closes the menu when opening the Preview Features modal', async () => {
++    const user = userEvent.setup();
++    render(withRequiredProviders(<ProfileMenu />, { ApolloProvider: { client: apolloClient } }));
++
++    await user.click(document.querySelector('[data-cy="user-menu-trigger"]'));
++    await waitFor(() => expect(getMenu()).toBeInTheDocument());
++
++    await user.click(screen.getByText('Preview Features'));
++
++    expect(await screen.findByText('Preview features modal')).toBeInTheDocument();
++    await waitFor(() => expect(getMenu()).not.toBeInTheDocument());
++  });
++});
+diff --git a/components/navigation/ProfileMenu.tsx b/components/navigation/ProfileMenu.tsx
+index ccf4000..24b1e4e 100644
+--- a/components/navigation/ProfileMenu.tsx
++++ b/components/navigation/ProfileMenu.tsx
+@@ -180,7 +180,10 @@ const ProfileMenu = ({ logoutParameters }: { logoutParameters?: Parameters<UserC
+             {hasAvailablePreviewFeatures && (
+               <MenuItem
+                 Icon={FlaskConical}
+-                onClick={() => setShowPreviewFeaturesModal(true)}
++                onClick={() => {
++                  setMenuOpen(false);
++                  setShowPreviewFeaturesModal(true);
++                }}
+                 appending={
+                   <Badge type="info" round size="sm">
+                     <FormattedMessage defaultMessage="New!" id="RlOKwP" />
+@@ -243,7 +246,6 @@ const ProfileMenu = ({ logoutParameters }: { logoutParameters?: Parameters<UserC
+           </div>
+         </div>
+       </div>
+-      <PreviewFeaturesModal open={showPreviewFeaturesModal} setOpen={setShowPreviewFeaturesModal} />
+     </React.Fragment>
+   );
+   return (
+@@ -268,6 +270,7 @@ const ProfileMenu = ({ logoutParameters }: { logoutParameters?: Parameters<UserC
+           {content}
+         </DrawerMenu>
+       )}
++      <PreviewFeaturesModal open={showPreviewFeaturesModal} setOpen={setShowPreviewFeaturesModal} />
+     </React.Fragment>
+   );
+ };
+-- 
+2.34.1
+
