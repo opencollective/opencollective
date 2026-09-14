@@ -2,6 +2,7 @@
 
 > [!WARNING]
 > Due to the increase in security reports due to generative AI, we're only accepting up to 2 reports per individual per week. Choose carefully!
+> Additionally, we're not offering bounties for low severity issues anymore. See the updated "Rewards" section.
 
 We believe that no technology is perfect and that working with skilled security researchers
 is crucial in identifying weaknesses.
@@ -122,11 +123,11 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 
 | Project     | Type            | Security requirement | Low   | Medium | High  | Critical |
 | ----------- | --------------- | -------------------- | ----- | ------ | ----- | -------- |
-| API         | API             | +++                  | \$120 | \$300  | \$600 | \$1200   |
-| Frontend    | Web Application | +++                  | \$120 | \$300  | \$600 | \$1200   |
-| PDF service | API             | ++                   | \$60  | \$150  | \$300 | \$600    |
-| Images      | API             | ++                   | \$60  | \$150  | \$300 | \$600    |
-| REST        | API             | ++                   | \$60  | \$150  | \$300 | \$600    |
+| API         | API             | +++                  | \$0  | \$100   | \$600 | \$1200   |
+| Frontend    | Web Application | +++                  | \$0  | \$100   | \$600 | \$1200   |
+| PDF service | API             | ++                   | \$0  | \$0     | \$300 | \$600    |
+| Images      | API             | ++                   | \$0  | \$0     | \$300 | \$600    |
+| REST        | API             | ++                   | \$0  | \$0     | \$300 | \$600    |
 
 Issues that we categorize as "Minimal" severity are not elligible for bounties. 
 
