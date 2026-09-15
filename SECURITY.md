@@ -1,8 +1,9 @@
 # Security Policy
 
 > [!WARNING]
-> Due to the increase in security reports due to generative AI, we're only accepting up to 2 reports per individual per week. Choose carefully!
-> Additionally, we're not offering bounties for low severity issues anymore. See the updated "Rewards" section.
+> Due to the increase in security reports due to generative AI, we're making the following changes to our bounty policy:
+> - We're only accepting up to 2 reports per individual per week. Choose carefully!
+> - We're no longer offering bounties for low and, in some cases, medium severity issues. See the updated "Rewards" section.
 
 We believe that no technology is perfect and that working with skilled security researchers
 is crucial in identifying weaknesses.
