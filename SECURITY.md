@@ -120,8 +120,6 @@ wf+ESlENix2p4LJ8BZLU/D/eaEugQL8LXW+KZVDXyCMwlCA4
 
 ## Rewards
 
-⚠️ As per the warning above, we are pausing our bounty program from **July 1st to August 31th 2026**. Issues reported during this period will not be replied to, and will not be elligible for bounties.
-
 | Project     | Type            | Security requirement | Low   | Medium | High  | Critical |
 | ----------- | --------------- | -------------------- | ----- | ------ | ----- | -------- |
 | API         | API             | +++                  | \$0  | \$100   | \$600 | \$1200   |
