@@ -60,7 +60,7 @@ All testing must be done locally or on staging. We **won't** accept reports made
 Out of scope:
 
 - **Private organizations**: still being tested internally.
-- **OpenSearch**: only available to privileged users for now.
+- **Search** (GraphQL `Query.search`, dashboard search command): only available to privileged users for now.
 - **GraphQL V1** (`/graphql/v1`) missing OAuth or personal token scope checks: token-based clients can't use it by default.
 
 ## Not considered vulnerabilities
